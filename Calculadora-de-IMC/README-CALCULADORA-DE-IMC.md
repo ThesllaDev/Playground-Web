@@ -16,6 +16,7 @@
 [Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Calculadora-de-IMC)
 
 </div>
+
 ---
 
 ### 🛠 Tecnologias e conhecimentos utilizados:

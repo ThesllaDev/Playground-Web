@@ -13,7 +13,12 @@
 
 ![](./assets/img/banner-canvas-clock.gif)
 
+<a href="https://codepen.io/theslladev/full/RwoqpyW" target="_blank">Veja o funcionando </a>
+
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Canvas-Clock)
+
 </div>
+
 ---
 
 ### 🛠 Tecnologias e conhecimentos utilizados:
