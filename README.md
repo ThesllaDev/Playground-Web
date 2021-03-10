@@ -3,7 +3,7 @@
 
 <div align="center">
   
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) ![](https://img.shields.io/static/v1?label=licence&message=mit&color=green&style=for-the-badge) ![](https://img.shields.io/static/v1?label=Made%20with&message=HTML5&color=E34F26&style=for-the-badge&logo=html5) ![](https://img.shields.io/static/v1?label=Made%20with&message=CSS3&color=1572B6&style=for-the-badge&logo=css3) ![](https://img.shields.io/static/v1?label=Made%20with&message=JavaScript&color=F7DF1E&style=for-the-badge&logo=javascript) ![](https://img.shields.io/static/v1?label=Made%20with&message=Markdown&color=000&style=for-the-badge&logo=markdown) [](https://img.shields.io/static/v1?label=made%20with&message=sass&color=CC6699&style=for-the-badge&logo=sass)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) ![](https://img.shields.io/static/v1?label=licence&message=mit&color=green&style=for-the-badge) ![](https://img.shields.io/static/v1?label=Made%20with&message=HTML5&color=E34F26&style=for-the-badge&logo=html5) ![](https://img.shields.io/static/v1?label=Made%20with&message=CSS3&color=1572B6&style=for-the-badge&logo=css3) ![](https://img.shields.io/static/v1?label=Made%20with&message=JavaScript&color=F7DF1E&style=for-the-badge&logo=javascript) ![](https://img.shields.io/static/v1?label=Made%20with&message=Markdown&color=000&style=for-the-badge&logo=markdown) ![](https://img.shields.io/static/v1?label=made%20with&message=sass&color=CC6699&style=for-the-badge&logo=sass)
 
 </div>
 
@@ -13,8 +13,6 @@
 
 - [Relógio Canvas <a name="canvas-clock"></a>](#relógio-canvas-)
 - [Calculadora de IMC <a name="calculadora-de-imc"></a>](#calculadora-de-imc-)
-  - [👷 Autor](#-autor)
-  - [📝 Licença](#-licença)
 
 ---
 
