@@ -1,0 +1,67 @@
+body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b2e202), to(#014274));
+  background: linear-gradient(#b2e202, #014274);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+form {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 0 30px #001;
+          box-shadow: 0 0 30px #001;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+}
+
+form label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+form input:focus {
+  outline: #e60000 dotted 3px;
+  outline-offset: .05em;
+}
+
+form [type="button"],
+form [type="reset"] {
+  color: #fafafa;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+form [type="button"] {
+  background-color: #01d89b;
+  border: 3px solid #01d89b;
+}
+
+form [type="reset"] {
+  background-color: #03c8cf;
+  border: 3px solid #03c8cf;
+}
+
+form #message {
+  color: #fafafa;
+  font-size: 30px;
+  font-weight: bold;
+}
