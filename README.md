@@ -13,6 +13,9 @@
 
 - [Relógio Canvas <a name="canvas-clock"></a>](#relógio-canvas-)
 - [Calculadora de IMC <a name="calculadora-de-imc"></a>](#calculadora-de-imc-)
+- [Rolagem de dados <a name="calculadora-de-imc"></a>](#rolagem-de-dados-)
+  - [👷 Autor](#-autor)
+  - [📝 Licença](#-licença)
 
 ---
 
@@ -37,7 +40,7 @@
 ## Calculadora de IMC <a name="calculadora-de-imc"></a>
 <a href="https://github.com/ThesllaDev/Simple-Projects/blob/master/Calculadora-de-IMC/README-CALCULADORA-DE-IMC.md" >![](./Calculadora-de-IMC/assets/img/banner-calculadora-de-imc.gif)</a>
 
-<a href="https://codepen.io/theslladev/full/RwoqpyW" target="_blank">Veja o funcionando </a>
+<a href="https://codepen.io/theslladev/full/yLVGBex" target="_blank">Veja o funcionando </a>
 
 [Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Calculadora-de-IMC)
 
@@ -45,6 +48,16 @@
 
 ---
 
+## Rolagem de dados <a name="calculadora-de-imc"></a>
+<a href="https://github.com/ThesllaDev/Simple-Projects/blob/master/Dice-Roll/README-DICE-ROLL.md" >![](./Dice-Roll/assets/img/banner-rolagem-de-dados.gif)</a>
+
+<a href="https://codepen.io/theslladev/full/NWbZabZ" target="_blank">Veja o funcionando </a>
+
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Dice-Roll)
+
+[Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/blob/master/Dice-Roll/README-DICE-ROLL.md)
+
+---
 
 ### 👷 Autor
 
