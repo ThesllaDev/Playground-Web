@@ -14,6 +14,7 @@
 - [Relógio Canvas <a name="canvas-clock"></a>](#relógio-canvas-)
 - [Calculadora de IMC <a name="calculadora-de-imc"></a>](#calculadora-de-imc-)
 - [Rolagem de dados <a name="calculadora-de-imc"></a>](#rolagem-de-dados-)
+- [Jogo de Tiro ao Alvo <a name="calculadora-de-imc"></a>](#jogo-de-tiro-ao-alvo-)
   - [👷 Autor](#-autor)
   - [📝 Licença](#-licença)
 
@@ -56,6 +57,17 @@
 [Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Dice-Roll)
 
 [Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/blob/master/Dice-Roll/README-DICE-ROLL.md)
+
+---
+
+## Jogo de Tiro ao Alvo <a name="calculadora-de-imc"></a>
+<a href="https://github.com/ThesllaDev/Simple-Projects/tree/master/Jogo-de-Tiro-ao-Alvo/README-JOGO-DE-TIRO-AO-ALVO.md" >![](./Jogo-de-Tiro-ao-Alvo/assets/img/banner-jogo-de-tiro-ao-alvo.gif)</a>
+
+<a href="https://codepen.io/theslladev/full/BapBvbw" target="_blank">Veja o funcionando </a>
+
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Jogo-de-Tiro-ao-Alvo)
+
+[Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/tree/master/Jogo-de-Tiro-ao-Alvo/README-JOGO-DE-TIRO-AO-ALVO.md)
 
 ---
 
