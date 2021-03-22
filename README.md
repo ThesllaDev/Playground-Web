@@ -11,10 +11,10 @@
 
 Índice:
 
-- [Relógio Canvas <a name="canvas-clock"></a>](#relógio-canvas-)
+- [Relógio Canvas <a name="relogio-canvas"></a>](#relógio-canvas-)
 - [Calculadora de IMC <a name="calculadora-de-imc"></a>](#calculadora-de-imc-)
-- [Rolagem de dados <a name="calculadora-de-imc"></a>](#rolagem-de-dados-)
-- [Jogo de Tiro ao Alvo <a name="calculadora-de-imc"></a>](#jogo-de-tiro-ao-alvo-)
+- [Rolagem de dados <a name="rolagem-de-dados"></a>](#rolagem-de-dados-)
+- [Jogo de Tiro ao Alvo <a name="jogo-de-tiro-ao-alvo"></a>](#jogo-de-tiro-ao-alvo-)
   - [👷 Autor](#-autor)
   - [📝 Licença](#-licença)
 
@@ -27,14 +27,14 @@
 
 ---
 
-## Relógio Canvas <a name="canvas-clock"></a>
-<a href="https://github.com/ThesllaDev/Simple-Projects/blob/master/Canvas-Clock/README-CANVAS-CLOCK.md" >![](./Canvas-Clock/assets/img/banner-canvas-clock.gif)</a>
+## Relógio Canvas <a name="relogio-canvas"></a>
+<a href="https://github.com/ThesllaDev/Simple-Projects/blob/master/Relogio-Canvas/README-RELOGIO-CANVAS.md" >![](./Relogio-Canvas/assets/img/banner-relogio-canvas.gif)</a>
 
 <a href="https://codepen.io/theslladev/full/RwoqpyW" target="_blank">Veja o funcionando </a>
 
-[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Canvas-Clock)
+[Código](https://github.com/ThesllaDev/Simple-Projects/blob/master/Relogio-Canvas)
 
-[Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/blob/master/Canvas-Clock/README-CANVAS-CLOCK.md)
+[Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/blob/master/Relogio-Canvas/README-RELOGIO-CANVAS.md)
 
 ---
 
@@ -49,18 +49,18 @@
 
 ---
 
-## Rolagem de dados <a name="calculadora-de-imc"></a>
-<a href="https://github.com/ThesllaDev/Simple-Projects/blob/master/Dice-Roll/README-DICE-ROLL.md" >![](./Dice-Roll/assets/img/banner-rolagem-de-dados.gif)</a>
+## Rolagem de dados <a name="rolagem-de-dados"></a>
+<a href="https://github.com/ThesllaDev/Simple-Projects/blob/master/Rolagem-de-Dados/README-ROLAGEM-DE-DADOS.md" >![](./Rolagem-de-Dados/assets/img/banner-rolagem-de-dados.gif)</a>
 
 <a href="https://codepen.io/theslladev/full/NWbZabZ" target="_blank">Veja o funcionando </a>
 
-[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Dice-Roll)
+[Código](https://github.com/ThesllaDev/Simple-Projects/blob/master/Rolagem-de-Dados)
 
-[Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/blob/master/Dice-Roll/README-DICE-ROLL.md)
+[Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/blob/master/Rolagem-de-Dados/README-ROLAGEM-DE-DADOS.md)
 
 ---
 
-## Jogo de Tiro ao Alvo <a name="calculadora-de-imc"></a>
+## Jogo de Tiro ao Alvo <a name="jogo-de-tiro-ao-alvo"></a>
 <a href="https://github.com/ThesllaDev/Simple-Projects/tree/master/Jogo-de-Tiro-ao-Alvo/README-JOGO-DE-TIRO-AO-ALVO.md" >![](./Jogo-de-Tiro-ao-Alvo/assets/img/banner-jogo-de-tiro-ao-alvo.gif)</a>
 
 <a href="https://codepen.io/theslladev/full/BapBvbw" target="_blank">Veja o funcionando </a>
