@@ -27,7 +27,9 @@ body {
 }
 
 body .main-title,
-body .hit-tip {
+body .hit-tip,
+body .hit-title,
+body .error-title {
   background-color: rgba(255, 255, 255, 0.9);
   border: 1px solid #001;
   border-radius: 10px;
@@ -39,5 +41,14 @@ body .hit-tip {
 body .canvas {
   cursor: crosshair;
   border: 3px solid #001;
+}
+
+body .hits-and-misses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 600px;
 }
 /*# sourceMappingURL=main.css.map */
