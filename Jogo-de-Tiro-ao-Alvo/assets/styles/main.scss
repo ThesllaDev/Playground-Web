@@ -1,5 +1,32 @@
+$ivory: #F2EFE3;
+
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+}
+
+body{
+    align-items: center;
+    background-color: #f00;
+	background-image: repeating-radial-gradient(circle at 0.5em 0.5em, transparent, transparent 0.14em, $ivory 0.15em, $ivory 0.28em, transparent 0.29em);
+	background-size: 1em 1em;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    .main-title,
+    .hit-tip{
+        background-color: rgba(255, 255, 255, 0.9);
+        border: 1px solid #001;
+        border-radius: 10px;
+        font-weight: bold;
+        margin: 5px;
+        padding: 10px;
+    }
+    .canvas{
+        cursor: crosshair;
+        border: 3px solid #001;
+    }
 }

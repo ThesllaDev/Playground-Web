@@ -4,4 +4,40 @@
   margin: 0px;
   padding: 0px;
 }
+
+body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f00;
+  background-image: repeating-radial-gradient(circle at 0.5em 0.5em, transparent, transparent 0.14em, #F2EFE3 0.15em, #F2EFE3 0.28em, transparent 0.29em);
+  background-size: 1em 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+body .main-title,
+body .hit-tip {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #001;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 5px;
+  padding: 10px;
+}
+
+body .canvas {
+  cursor: crosshair;
+  border: 3px solid #001;
+}
 /*# sourceMappingURL=main.css.map */
