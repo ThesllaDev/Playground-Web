@@ -8,7 +8,15 @@
     <title>Conversor da Velocidade da Luz</title>
 </head>
 <body>
-
+    <h1 class="main-title">Converta anos luz em Quilômetros</h1>
+    <p class="description">Um Ano-luz é a distância que a luz percorre num ano, 1 Ano-luz corresponde a cerca de 9.460.800.000.000 <abbr title="Quilômetros">KM</abbr></p>
+    <form class="form">
+        <label class="indication" for="anosLuz">Digite o número de ano-luz que deseja converter:</label>
+        <input type="number" id="anosLuz" required placeholder="Digite um número" min="1">
+        <input type="button" value="Converter" onclick="converterValores()">
+        <input type="reset" value="Resetar valor">
+        <p id="message" class="message"></p>
+    </form>
     <script src="assets/js/conversor-da-velocidade-da-luz.js"></script>
 </body>
 </html>
