@@ -79,7 +79,7 @@
 
 [Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Conversor-da-Velocidade-da-Luz)
 
-[Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/tree/master/Jogo-de-Tiro-ao-Alvo/README-CONVERSOR-DE-ANOS-LUZ.md)
+[Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/tree/master/Conversor-da-Velocidade-da-Luz/README-CONVERSOR-DE-ANOS-LUZ.md)
 
 ---
 
