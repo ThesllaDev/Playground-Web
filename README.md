@@ -24,7 +24,7 @@
 #### 📚 Referências que usei para aprender  
 
 [W3schools](https://www.w3schools.com) -
-[MDN Web Docs](https://developer.mozilla.org/pt-BR)
+[MDN Web Docs](https://developer.mozilla.org/pt-BR) - [Livro Lógica de Programação](https://www.casadocodigo.com.br/products/livro-programacao) - [ImersãoDev](https://imersao.dev/)
 
 ---
 
