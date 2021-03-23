@@ -3,3 +3,54 @@
     margin: 0px;
     padding: 0px;
 }
+
+body{
+    align-items: center;
+    background: url("../img/background-interstellar.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    color: #f1f1f1;
+    text-align: center;
+    text-shadow: 2px 2px rgba(0,0,0,.6);
+    line-height: 1.5;
+    .main-title,
+    .description,
+    .form{
+        background-color: rgba(0,0,0,.6);
+        border: 3px solid #001;
+        border-radius: 6px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .description{
+        max-width: 80ch;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        .indication,
+        .message{
+            font-weight: bold;
+            font-size: 1.6em;
+        }
+        input{
+            padding: 6px;
+            text-align: center;
+            margin: 5px;
+            font-weight: bold;
+            border: 3px solid #001;
+            border-radius: 6px;
+            &:focus{
+                outline: yellow dotted 3px;
+                outline-offset: .05em;
+            }
+        }
+    }
+}
