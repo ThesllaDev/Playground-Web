@@ -37,7 +37,7 @@
 
 
 Feito com ❤️ por Thalles Augusto 👋🏽 Entre em contato! <br/>
- [![Linkedin Badge](https://img.shields.io/badge/-Thalles-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thalles-augusto/)](https://www.linkedin.com/in/tgmarinho/) 
+ [![Linkedin Badge](https://img.shields.io/badge/-Thalles-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thalles-augusto/)](https://www.linkedin.com/in/thalles-augusto/) 
 [![Gmail Badge](https://img.shields.io/badge/-ThesllaDev@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ThesllaDev@gmail.com)](mailto:ThesllaDev@gmail.com)
 
 ---
