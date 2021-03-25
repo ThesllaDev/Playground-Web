@@ -1,0 +1,65 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../img/bg-crystal-ball.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 1.5;
+  text-align: center;
+  width: 100vw;
+}
+
+body .main-title,
+body .description {
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  margin: 15px;
+  padding: 10px;
+}
+
+body .form {
+  background-color: rgba(242, 242, 242, 0.9);
+  border: 3px solid #001;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: bold;
+  margin: 15px;
+  padding: 30px;
+}
+
+body .form input {
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+}
+
+body .form input[type="button"] {
+  background-color: #0ff;
+  border: 3px solid #8a2be2;
+  cursor: pointer;
+  padding: 10px;
+}
+/*# sourceMappingURL=jogo-de-adivinhacao.css.map */

@@ -3,3 +3,43 @@
     margin: 0px;
     padding: 0px;
 }
+
+body{
+    align-items: center;
+    background: url("../img/bg-crystal-ball.jpg");
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    line-height: 1.5;
+    text-align: center;
+    width: 100vw;
+    .main-title,
+    .description{
+        background-color: #f2f2f2;
+        border-radius: 6px;
+        margin: 15px;
+        padding: 10px;
+    }
+    .form{
+        background-color: rgba(242, 242, 242, .9);
+        border: 3px solid #001;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        margin: 15px;
+        padding: 30px;
+        input{
+            font-weight: bold;
+            margin: 10px;
+            text-align: center;
+            &[type="button"]{
+                background-color: #0ff;
+                border: 3px solid #8a2be2;
+                cursor: pointer;
+                padding: 10px;
+            }
+        }
+    }
+}
