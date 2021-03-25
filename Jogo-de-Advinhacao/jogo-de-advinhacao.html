@@ -8,7 +8,15 @@
     <title>Jogo de Advinhação - Tente acertar o número</title>
 </head>
 <body>
-
+    <h1 class="main-title">Tente advinhar o número de 1 a 100</h1>
+    <p class="description">Digite um número (de 1 a 100) no campo abaixo e selecione o botão verificar para jogar</p>
+    <form class="form">
+        <h2 class="subtitle">Você tem mais <span id="attempts">10</span> chances</h2>
+        <input type="number" id="attemptValue" required placeholder="Digite o número" min="1" max="100">
+        <input type="button" value="Verificar" onclick="checkAndRespond()">
+        <p class="previous-numbers" id="previousNumbers">Números chutados: </p>
+        <p class="answer" id="answer"></p>
+    </form>
     <script src="./assets/js/jogo-de-advinhacao.js"></script>
 </body>
 </html>
