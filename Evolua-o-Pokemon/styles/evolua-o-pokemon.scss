@@ -3,3 +3,75 @@
     margin: 0px;
     padding: 0px;
 }
+
+body{
+/*    background-image: url("../img/eevee-evolutions.png");
+    background-position: center; */
+    line-height: 1.5;
+    min-height: 100vh;
+    text-align: center;
+    width: 100vw;
+    .main-title{
+        margin-top: 50px;
+    }
+}
+
+.info-pokemon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    .figure-pokemon{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .about-pokemon{
+            font-weight: bold;
+            max-width: 80ch;
+        }
+        .img-pokemon{
+            background-color: #F2F2F2;
+            border: 3px solid #001;
+            border-radius: 30%;
+            max-width: 100%;
+            margin: 30px;
+        }
+    }
+    .type{
+        border: 1px solid #001;
+        border-radius: 10px;
+        font-weight: bold;
+        padding: 10px;
+        margin: 15px;
+        width: 33.69%;
+    }
+    .type-normal{
+        background-color: #a4acaf;
+    }
+    .type-water{
+        background-color: #4592c4;
+    }
+    .type-electric{
+        background-color: #eed535;
+    }
+    .type-fire{
+        background-color: #fd7d24;
+    }
+    .type-psychic{
+        background-color: #f366b9;
+    }
+    .type-dark{
+        background-color: #707070;
+    }
+    .type-grass{
+        background-color: #9bcc50;
+    }
+    .type-ice{
+        background-color: #51c4e7;
+    }
+    .type-fairy{
+        background-color: #fdb9e9;
+    }
+}

@@ -4,4 +4,106 @@
   margin: 0px;
   padding: 0px;
 }
+
+body {
+  /*    background-image: url("../img/eevee-evolutions.png");
+    background-position: center; */
+  line-height: 1.5;
+  min-height: 100vh;
+  text-align: center;
+  width: 100vw;
+}
+
+body .main-title {
+  margin-top: 50px;
+}
+
+.info-pokemon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 30px;
+}
+
+.info-pokemon .figure-pokemon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info-pokemon .figure-pokemon .about-pokemon {
+  font-weight: bold;
+  max-width: 80ch;
+}
+
+.info-pokemon .figure-pokemon .img-pokemon {
+  background-color: #F2F2F2;
+  border: 3px solid #001;
+  border-radius: 30%;
+  max-width: 100%;
+  margin: 30px;
+}
+
+.info-pokemon .type {
+  border: 1px solid #001;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 15px;
+  width: 33.69%;
+}
+
+.info-pokemon .type-normal {
+  background-color: #a4acaf;
+}
+
+.info-pokemon .type-water {
+  background-color: #4592c4;
+}
+
+.info-pokemon .type-electric {
+  background-color: #eed535;
+}
+
+.info-pokemon .type-fire {
+  background-color: #fd7d24;
+}
+
+.info-pokemon .type-psychic {
+  background-color: #f366b9;
+}
+
+.info-pokemon .type-dark {
+  background-color: #707070;
+}
+
+.info-pokemon .type-grass {
+  background-color: #9bcc50;
+}
+
+.info-pokemon .type-ice {
+  background-color: #51c4e7;
+}
+
+.info-pokemon .type-fairy {
+  background-color: #fdb9e9;
+}
 /*# sourceMappingURL=evolua-o-pokemon.css.map */
