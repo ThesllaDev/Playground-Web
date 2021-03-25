@@ -17,6 +17,7 @@
 - [Jogo de Tiro ao Alvo <a name="jogo-de-tiro-ao-alvo"></a>](#jogo-de-tiro-ao-alvo-)
 - [Conversor de Ano-Luz <a name="conversor-de-ano-luz"></a>](#conversor-de-ano-luz-)
 - [Evolua o Pokémon <a name="evolua-o-pokemon"></a>](#evolua-o-pokémon-)
+- [Jogo de Adivinhação <a name="jogo-de-adivinhacao"></a>](#jogo-de-adivinhação-)
   - [👷 Autor](#-autor)
   - [📝 Licença](#-licença)
 
@@ -92,6 +93,17 @@
 [Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Evolua-o-Pokemon)
 
 [Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/tree/master/Evolua-o-Pokemon/README-EVOLUA-O-POKEMON.md)
+
+---
+
+## Jogo de Adivinhação <a name="jogo-de-adivinhacao"></a>
+<a href="https://github.com/ThesllaDev/Simple-Projects/tree/master/Jogo-de-Advinhacao/README-JOGO-DE-ADVINHACAO.md" >![](./Jogo-de-Advinhacao/assets/img/banner-jogo-de-adivinhacao.gif)</a>
+
+<a href="https://codepen.io/theslladev/full/qBRbEwY" target="_blank">Veja o funcionando </a>
+
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Jogo-de-Advinhacao)
+
+[Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/tree/master/Jogo-de-Advinhacao/README-JOGO-DE-ADVINHACAO.md)
 
 ---
 
