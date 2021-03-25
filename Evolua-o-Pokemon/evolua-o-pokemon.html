@@ -8,16 +8,29 @@
     <title>Evolua o Pokémon - Escolha um elemento para evoluir o Eevee</title>
 </head>
 <body>
-    <h1 class="main-title">Evolua o Eevee</h1>
+    <h1 class="main-title">Evolua o Eevee!</h1>
     <div class="container">
         <section class="info-pokemon">
-            <figure>
-                <img src="./img/eevee.png" alt="ilustração do pokemon eevee">
-                <figcaption>Ele tem a capacidade de alterar a composição de seu corpo para se adequar ao ambiente. Graças à sua composição genética instável, este Pokémon especial esconde muitas evoluções diferentes possíveis.</figcaption>
+            <figure class="figure-pokemon">
+                <figcaption class="about-pokemon" id="infoPokemon">Ele tem a capacidade de alterar a composição de seu corpo para se adequar ao ambiente. Graças à sua composição genética instável, este Pokémon especial esconde muitas evoluções diferentes possíveis.</figcaption>
+                <img class="img-pokemon" id="imgPokemon" src="./img/eevee.png" alt="ilustração do pokemon eevee">
             </figure>
             <h2 class="subtitle">Tipo:</h2>
-            <p class="type">Normal</p>
+            <p class="type type-normal" id="type">Normal</p>
         </section>
+        <h3>Selecione um tipo abaixo para evoluir:</h3>
+        <select name="types" id="types">
+            <option value="Normal">Normal</option>
+            <option value="Water">Água</option>
+            <option value="Electric">Elétrico</option>
+            <option value="Fire">Fogo</option>
+            <option value="Psychic">Psíquico</option>
+            <option value="Dark">Sombrio</option>
+            <option value="Grass">Planta</option>
+            <option value="Ice">Gelo</option>
+            <option value="Fairy">Fada</option>
+        </select>
+        <button onclick="change()">Transformar</button>
     </div>
     <script src="./js/evolua-o-pokemon.js"></script>
 </body>
