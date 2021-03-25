@@ -8,7 +8,7 @@
     <title>Evolua o Pokémon - Escolha um elemento para evoluir o Eevee</title>
 </head>
 <body>
-    <h1 class="main-title">Evolua o Eevee!</h1>
+    <h1 class="main-title">Transforme o Eevee!</h1>
     <div class="container">
         <section class="info-pokemon">
             <figure class="figure-pokemon">
@@ -18,8 +18,8 @@
             <h2 class="subtitle">Tipo:</h2>
             <p class="type type-normal" id="type">Normal</p>
         </section>
-        <h3>Selecione um tipo abaixo para evoluir:</h3>
-        <select name="types" id="types">
+        <h3 class="info-title">Selecione um tipo abaixo para ver as transformações:</h3>
+        <select class="select-type" name="types" id="types" onchange="change()">
             <option value="Normal">Normal</option>
             <option value="Water">Água</option>
             <option value="Electric">Elétrico</option>
@@ -30,7 +30,6 @@
             <option value="Ice">Gelo</option>
             <option value="Fairy">Fada</option>
         </select>
-        <button onclick="change()">Transformar</button>
     </div>
     <script src="./js/evolua-o-pokemon.js"></script>
 </body>

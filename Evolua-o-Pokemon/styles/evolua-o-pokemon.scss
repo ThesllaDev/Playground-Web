@@ -5,46 +5,54 @@
 }
 
 body{
-/*    background-image: url("../img/eevee-evolutions.png");
-    background-position: center; */
+    background-image: url("../img/eevee-evolutions.png");
+    background-position: center;
     line-height: 1.5;
     min-height: 100vh;
+    padding-bottom: 100px;
     text-align: center;
     width: 100vw;
     .main-title{
-        margin-top: 50px;
+        margin-top: 20px;
+    }
+    .main-title,
+    .about-pokemon,
+    .subtitle,
+    .info-title{
+        background-color: rgba(242, 242, 242, .6);
+        padding: 20px;
     }
 }
 
 .info-pokemon{
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     margin: 30px;
     .figure-pokemon{
+        align-items: center;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
         .about-pokemon{
             font-weight: bold;
             max-width: 80ch;
         }
         .img-pokemon{
-            background-color: #F2F2F2;
+            background-color: rgba(242, 242, 242, .3);
             border: 3px solid #001;
             border-radius: 30%;
-            max-width: 100%;
             margin: 30px;
+            max-width: 100%;
         }
     }
     .type{
         border: 1px solid #001;
         border-radius: 10px;
         font-weight: bold;
-        padding: 10px;
         margin: 15px;
+        padding: 10px;
         width: 33.69%;
     }
     .type-normal{

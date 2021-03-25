@@ -6,16 +6,25 @@
 }
 
 body {
-  /*    background-image: url("../img/eevee-evolutions.png");
-    background-position: center; */
+  background-image: url("../img/eevee-evolutions.png");
+  background-position: center;
   line-height: 1.5;
+  padding-bottom: 100px;
   min-height: 100vh;
   text-align: center;
   width: 100vw;
 }
 
 body .main-title {
-  margin-top: 50px;
+  margin-top: 20px;
+}
+
+body .main-title,
+body .about-pokemon,
+body .subtitle,
+body .info-title {
+  background-color: rgba(242, 242, 242, 0.6);
+  padding: 20px;
 }
 
 .info-pokemon {
@@ -55,7 +64,7 @@ body .main-title {
 }
 
 .info-pokemon .figure-pokemon .img-pokemon {
-  background-color: #F2F2F2;
+  background-color: rgba(242, 242, 242, 0.3);
   border: 3px solid #001;
   border-radius: 30%;
   max-width: 100%;
