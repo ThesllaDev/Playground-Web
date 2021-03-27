@@ -18,6 +18,7 @@
 - [Conversor de Ano-Luz <a name="conversor-de-ano-luz"></a>](#conversor-de-ano-luz-)
 - [Evolua o Pokémon <a name="evolua-o-pokemon"></a>](#evolua-o-pokémon-)
 - [Jogo de Adivinhação <a name="jogo-de-adivinhacao"></a>](#jogo-de-adivinhação-)
+- [Lista de Filmes <a name="lista-de-filmes"></a>](#lista-de-filmes-)
   - [👷 Autor](#-autor)
   - [📝 Licença](#-licença)
 
@@ -104,6 +105,17 @@
 [Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Jogo-de-Advinhacao)
 
 [Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/tree/master/Jogo-de-Advinhacao/README-JOGO-DE-ADVINHACAO.md)
+
+---
+
+## Lista de Filmes <a name="lista-de-filmes"></a>
+<a href="https://github.com/ThesllaDev/Simple-Projects/tree/master/Lista-de-Filmes/README-LISTA-DE-FILMES.md" >![](./Lista-de-Filmes/assets/img/banner-lista-de-filmes.png)</a>
+
+<a href="https://codepen.io/theslladev/full/eYgZKXy" target="_blank">Veja o funcionando </a>
+
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Lista-de-Filmes)
+
+[Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/tree/master/Lista-de-Filmes/README-LISTA-DE-FILMES.md)
 
 ---
 
