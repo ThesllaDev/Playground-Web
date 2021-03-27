@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,21 @@
     <title>Lista de Filmes - Indicações de filmes para assistir</title>
 </head>
 <body>
-
+    <main class="main-content">
+        <h1 class="main-title">Indicações de filmes</h1>
+        <h2 class="subtitle">Abaixo tem uma lista dos melhores filmes que eu recomendo que você assita</h2>
+        <ol class="list-of-movies" id="listOfFilms"></ol>
+        <h3 class="description">Escolha o filme para adicionar à lista de desejo</h3>
+        <form class="form">
+            <label for="movieNumber" class="tip">Digite o número do filme de acordo com a lista acima</label>
+            <input type="number" id="movieNumber" class="movie-number" placeholder="Digite o número do filme" min="1"
+                max="10">
+            <input type="button" class="btn-add" value="Adicionar o filme a lista de desejo" onclick="addMovie()">
+            <p class="error-message" id="errorMessage"></p>
+        </form>
+        <section class="wishlist" id="wishlist">
+        </section>
+    </main>
     <script src="./assets/js/lista-de-filmes.js"></script>
 </body>
 </html>
