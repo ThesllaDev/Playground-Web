@@ -3,3 +3,93 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    align-items: center;
+    background: url("../img/background-movies.jpg");
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+.main-content{
+    align-items: center;
+    background-color: #f2f2f2;
+    border: 3px solid #001;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    .main-title,
+    .subtitle,
+    .description{
+        color: #0454e7;
+    }
+    ol{
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        margin: 30px;
+        .item{
+            margin-left: 10px;
+        }
+    }
+    .form{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        .movie-number{
+            margin: 15px;
+            max-width: 250px;
+            text-align: center;
+        }
+        .btn-add{
+            background-color: #0454e7;
+            border: 3px solid #001;
+            box-shadow: 0 6px #001;
+            color: #f2f2f2;
+            border-radius: 6px;
+            font-weight: bold;
+            margin: 15px;
+            max-width: 250px;
+            padding: 10px;
+            cursor: pointer;
+            &:active{
+                box-shadow: 0 1px #001;
+                transform: translateY(3px);
+            }
+        }
+    }
+    .wishlist{
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .card-movie{
+            box-shadow: 0 0 6px #001;
+            margin: 30px;
+            max-width: 100%;
+            .movie-title{
+                font-weight: bold;
+            }
+            .movie-poster{
+                margin: 30px;
+                width: 300px;
+            }
+        }
+    }
+    .btn-trailer{
+        background-color: #da032e;
+        border: 3px solid #001;
+        border-radius: 30px;
+        color: #001;
+        font-weight: bold;
+        padding: 20px 50px;
+    }
+}
