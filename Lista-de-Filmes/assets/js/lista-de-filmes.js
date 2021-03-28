@@ -15,36 +15,44 @@ var wishList = [];
 function addMovie() {
     const movieNumber = document.getElementById('movieNumber').value - 1;
     const errorMessage = document.getElementById('errorMessage');
+    errorMessage.style.color = 'red';
+    errorMessage.style.fontWeight = 'bold';
 
-    if (wishList.includes(movieNumber.toString())) {
-        errorMessage.textContent = "Este filme já está adicionado a lista de desejo, escolha outro";
-        errorMessage.style.color = 'red';
-        setTimeout(function (){ errorMessage.textContent = ""}, 3000);
-    } else {
-        wishList.push(movieNumber.toString());
-        const cardMovie = document.getElementById('wishlist');
-        var card = document.createElement('div');
-        card.setAttribute("class", "card-movie");
-        cardMovie.appendChild(card);
-        var figure = document.createElement('figure');
-        figure.setAttribute("class", "movie-figure");
-        var figureCaption = document.createElement('figcaption');
-        figureCaption.setAttribute("class", "movie-title");
-        figureCaption.textContent = moviesName[movieNumber];
-        figure.appendChild(figureCaption);
-        var movieImages = document.createElement('img');
-        movieImages.setAttribute("class", "movie-poster");
-        movieImages.setAttribute("src", moviesPosters[movieNumber]);
-        movieImages.setAttribute("alt", moviesName[movieNumber]);
-        movieImages.setAttribute("title", moviesName[movieNumber]);
-        figure.appendChild(movieImages);
-        card.appendChild(figure);
-        var linkTrailer = document.createElement('a');
-        linkTrailer.setAttribute("href", trailers[movieNumber]);
-        linkTrailer.setAttribute("class", "btn-trailer");
-        linkTrailer.setAttribute("title", `Trailer do filme ${moviesName[movieNumber]}`);
-        linkTrailer.setAttribute("target", "_blank");
-        linkTrailer.textContent = "Trailer do filme";
-        card.appendChild(linkTrailer);
+    valueVerification();
+    function valueVerification() {
+        if (movieNumber >= 0 && movieNumber < 10) {
+            if (wishList.includes(movieNumber.toString())) {
+                errorMessage.textContent = "Este filme já está adicionado a lista de desejo, escolha outro";
+                setTimeout(function (){ errorMessage.textContent = ""}, 3000);
+            } else {
+                wishList.push(movieNumber.toString());
+                const cardMovie = document.getElementById('wishlist');
+                var card = document.createElement('div');
+                card.setAttribute("class", "card-movie");
+                cardMovie.appendChild(card);
+                var figure = document.createElement('figure');
+                figure.setAttribute("class", "movie-figure");
+                var figureCaption = document.createElement('figcaption');
+                figureCaption.setAttribute("class", "movie-title");
+                figureCaption.textContent = moviesName[movieNumber];
+                figure.appendChild(figureCaption);
+                var movieImages = document.createElement('img');
+                movieImages.setAttribute("class", "movie-poster");
+                movieImages.setAttribute("src", moviesPosters[movieNumber]);
+                movieImages.setAttribute("alt", moviesName[movieNumber]);
+                movieImages.setAttribute("title", moviesName[movieNumber]);
+                figure.appendChild(movieImages);
+                card.appendChild(figure);
+                var linkTrailer = document.createElement('a');
+                linkTrailer.setAttribute("href", trailers[movieNumber]);
+                linkTrailer.setAttribute("class", "btn-trailer");
+                linkTrailer.setAttribute("title", `Trailer do filme ${moviesName[movieNumber]}`);
+                linkTrailer.setAttribute("target", "_blank");
+                linkTrailer.textContent = "Trailer do filme";
+                card.appendChild(linkTrailer);
+            }
+        } else {
+            errorMessage.textContent = "Digite um número de 1 a 10";
+        }
     }
 }
