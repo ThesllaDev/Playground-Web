@@ -21,7 +21,7 @@
   line-height: 1.5;
   padding: 1.8em;
   text-align: center;
-  width: 100vw;
+  width: 100%;
 }
 
 .main-content .main-title,
@@ -34,7 +34,7 @@
 .main-content .table-row,
 .main-content .data-cells {
   border: 1px solid black;
-  padding: 0, 3125em;
+  padding: 0.3125em;
 }
 
 .main-content .leaderboard {
