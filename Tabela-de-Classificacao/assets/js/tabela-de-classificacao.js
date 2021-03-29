@@ -259,6 +259,43 @@ function displayTeamData(teams) {
     leaderboard.innerHTML = html;
 }
 
+atlantaHawks.winRate = toCalculateChanceOfWin(atlantaHawks);
+bostonCeltics.winRate = toCalculateChanceOfWin(bostonCeltics);
+brooklynNets.winRate = toCalculateChanceOfWin(brooklynNets);
+charlotteHornets.winRate = toCalculateChanceOfWin(charlotteHornets);
+chicagoBulls.winRate = toCalculateChanceOfWin(chicagoBulls);
+clevelandCavaliers.winRate = toCalculateChanceOfWin(clevelandCavaliers);
+dallasMavericks.winRate = toCalculateChanceOfWin(dallasMavericks);
+denverNuggets.winRate = toCalculateChanceOfWin(denverNuggets);
+detroitPistons.winRate = toCalculateChanceOfWin(detroitPistons);
+goldenState.winRate = toCalculateChanceOfWin(goldenState);
+houstonRockets.winRate = toCalculateChanceOfWin(houstonRockets);
+indianaPacers.winRate = toCalculateChanceOfWin(indianaPacers);
+laClippers.winRate = toCalculateChanceOfWin(laClippers);
+laLakers.winRate = toCalculateChanceOfWin(laLakers);
+memphisGrizzlies.winRate = toCalculateChanceOfWin(memphisGrizzlies);
+miamiHeat.winRate = toCalculateChanceOfWin(miamiHeat);
+milwaukeeBucks.winRate = toCalculateChanceOfWin(milwaukeeBucks);
+minnesotaTimberwolves.winRate = toCalculateChanceOfWin(minnesotaTimberwolves);
+newOrleans.winRate = toCalculateChanceOfWin(newOrleans);
+newYork.winRate = toCalculateChanceOfWin(newYork);
+oklahomaCity.winRate = toCalculateChanceOfWin(oklahomaCity);
+orlandoMagic.winRate = toCalculateChanceOfWin(orlandoMagic);
+philadelphia76ers.winRate = toCalculateChanceOfWin(philadelphia76ers);
+phoenixSuns.winRate = toCalculateChanceOfWin(phoenixSuns);
+portlandBlazers.winRate = toCalculateChanceOfWin(portlandBlazers);
+sacramentoKings.winRate = toCalculateChanceOfWin(sacramentoKings);
+sanAntonio.winRate = toCalculateChanceOfWin(sanAntonio);
+torontoRaptors.winRate = toCalculateChanceOfWin(torontoRaptors);
+utahJazz.winRate = toCalculateChanceOfWin(utahJazz);
+washingtonWizards.winRate = toCalculateChanceOfWin(washingtonWizards);
+
+function toCalculateChanceOfWin(team) {
+    var amountOfGames = team.victory + team.defeats;
+    var winPercentage = parseFloat((team.victory / amountOfGames) * 100).toFixed(1);
+    return winPercentage;
+}
+
 function addVictory(i) {
     var team = teams[i];
     team.victory++;
