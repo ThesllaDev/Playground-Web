@@ -1,5 +1,62 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+}
+
+.main-content {
+    background: linear-gradient(#253b73, #b52532);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 1.8em;
+    text-align: center;
+    width: 100vw;
+    .main-title,
+    .table-caption {
+        color: #f2f2f2;
+    }
+    .leaderboard,
+    .header-cells,
+    .table-row,
+    .data-cells {
+        border: 1px solid black;
+        padding: 0, 3125em;
+    }
+    .leaderboard {
+        background-color: #f2f2f2;
+        margin: 1em;
+        .table-header {
+            background-color: #888;
+        }
+        .table-row {
+            &:nth-of-type(even) {
+                background-color: #cdcdcd;
+            }
+            &:hover {
+                background-color: #888;
+            }
+            .team-logo {
+                height: 50px;
+                width: 50px;
+            }
+            .btn-add,
+            .btn-rmv {
+                border: 3px solid #001;
+                border-radius: 10px;
+                color: #f2f2f2;
+                cursor: pointer;
+                font-weight: bold;
+                height: 50px;
+                width: 75px;
+            }
+            .btn-add {
+                background-color: #253b73;
+            }
+            .btn-rmv {
+                background-color: #b52532;
+            }
+        }
+    }
 }

@@ -4,4 +4,77 @@
   margin: 0px;
   padding: 0px;
 }
+
+.main-content {
+  background: -webkit-gradient(linear, left top, left bottom, from(#253b73), to(#b52532));
+  background: linear-gradient(#253b73, #b52532);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 1.5;
+  padding: 1.8em;
+  text-align: center;
+  width: 100vw;
+}
+
+.main-content .main-title,
+.main-content .table-caption {
+  color: #f2f2f2;
+}
+
+.main-content .leaderboard,
+.main-content .header-cells,
+.main-content .table-row,
+.main-content .data-cells {
+  border: 1px solid black;
+  padding: 0, 3125em;
+}
+
+.main-content .leaderboard {
+  background-color: #f2f2f2;
+  margin: 1em;
+}
+
+.main-content .leaderboard .table-header {
+  background-color: #888;
+}
+
+.main-content .leaderboard .table-row:nth-of-type(even) {
+  background-color: #cdcdcd;
+}
+
+.main-content .leaderboard .table-row:hover {
+  background-color: #888;
+}
+
+.main-content .leaderboard .table-row .team-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.main-content .leaderboard .table-row .btn-add,
+.main-content .leaderboard .table-row .btn-rmv {
+  border: 3px solid #001;
+  border-radius: 10px;
+  color: #f2f2f2;
+  cursor: pointer;
+  font-weight: bold;
+  height: 50px;
+  width: 75px;
+}
+
+.main-content .leaderboard .table-row .btn-add {
+  background-color: #253b73;
+}
+
+.main-content .leaderboard .table-row .btn-rmv {
+  background-color: #b52532;
+}
 /*# sourceMappingURL=tabela-de-classificacao.css.map */
