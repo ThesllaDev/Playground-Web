@@ -249,8 +249,24 @@ function displayTeamData(teams) {
         html += `<td class="data-cells">${teams[i].name}</td>`
         html += `<td class="data-cells">${teams[i].victory}</td>`
         html += `<td class="data-cells">${teams[i].defeats}</td>`
-        html += `<td class="data-cells">${teams[i].winRate}</td></tr>`
+        html += `<td class="data-cells">${teams[i].winRate}</td>`
+        html += `<td class="data-cells"><button class="btn-add" onClick="addVictory('${i}')">Adicionar Vitória</button></td>`
+        html += `<td class="data-cells"><button class="btn-add" onClick="addDefeat('${i}')">Adicionar Derrota</button></td></tr>`
     }
     var leaderboard = document.getElementById('tableBody');
     leaderboard.innerHTML = html;
+}
+
+function addVictory(i) {
+    var team = teams[i];
+    team.victory++;
+    team.winRate = toCalculateChanceOfWin(team);
+    displayTeamData(teams);
+}
+
+function addDefeat(i) {
+    var team = teams[i];
+    team.defeats++;
+    team.winRate = toCalculateChanceOfWin(team)
+    displayTeamData(teams);
 }
