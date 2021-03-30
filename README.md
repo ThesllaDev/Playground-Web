@@ -19,6 +19,7 @@
 - [Evolua o Pokémon <a name="evolua-o-pokemon"></a>](#evolua-o-pokémon-)
 - [Jogo de Adivinhação <a name="jogo-de-adivinhacao"></a>](#jogo-de-adivinhação-)
 - [Lista de Filmes <a name="lista-de-filmes"></a>](#lista-de-filmes-)
+- [Tabela de Classificação da NBA <a name="tabela-de-classificação"></a>](#tabela-de-classificação-da-nba-)
   - [👷 Autor](#-autor)
   - [📝 Licença](#-licença)
 
@@ -116,6 +117,17 @@
 [Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Lista-de-Filmes)
 
 [Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/tree/master/Lista-de-Filmes/README-LISTA-DE-FILMES.md)
+
+---
+
+## Tabela de Classificação da NBA <a name="tabela-de-classificação"></a>
+<a href="https://github.com/ThesllaDev/Simple-Projects/tree/master/Tabela-de-Classificacao/README-TABELA-DE-CLASSIFICACAO.md" >![](./Tabela-de-Classificacao/assets/img/banner-tabela-de-classificacao.png)</a>
+
+<a href="https://codepen.io/theslladev/full/XWpjYxp" target="_blank">Veja o funcionando </a>
+
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Tabela-de-Classificacao)
+
+[Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/tree/master/Tabela-de-Classificacao/README-TABELA-DE-CLASSIFICACAO.md)
 
 ---
 
