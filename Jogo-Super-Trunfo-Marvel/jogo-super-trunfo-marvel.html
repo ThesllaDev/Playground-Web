@@ -8,7 +8,23 @@
     <title>Jogo de Super Trunfo com Personagens da Marvel</title>
 </head>
 <body>
-
+    <main class="main-content">
+        <section class="game-start">
+            <h1>Super Trunfo dos Personagens da Marvel</h1>
+            <button class="btn-draw" id="btnDraw" onclick="drawCard()">Sortear Carta</button>
+        </section>
+        <section class="game-section">
+            <h2>Sorteie a carta e escolha um atributo para desafiar o oponente</h2>
+            <div class="cards">
+                <div class="card-in-play" id="playerCard"></div>
+                <div class="card-in-play" id="machineCard"></div>
+            </div>
+            <form id="gameOptions">
+                <div class="options" id="options"></div>
+                <button type="button" class="btn-choose" id="btnChoose" onclick="play()">Comparar atributo</button>
+            </form>
+        </section>
+    </main>
     <script src="./assets/js/jogo-super-trunfo-marvel.js"></script>
 </body>
 </html>
