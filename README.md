@@ -20,6 +20,7 @@
 - [Jogo de Adivinhação <a name="jogo-de-adivinhacao"></a>](#jogo-de-adivinhação-)
 - [Lista de Filmes <a name="lista-de-filmes"></a>](#lista-de-filmes-)
 - [Tabela de Classificação da NBA <a name="tabela-de-classificação"></a>](#tabela-de-classificação-da-nba-)
+- [Jogo de Super Trunfo com Personagens da Marvel <a name="jogo-super-trunfo"></a>](#jogo-de-super-trunfo-com-personagens-da-marvel-)
   - [👷 Autor](#-autor)
   - [📝 Licença](#-licença)
 
@@ -128,6 +129,17 @@
 [Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Tabela-de-Classificacao)
 
 [Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/tree/master/Tabela-de-Classificacao/README-TABELA-DE-CLASSIFICACAO.md)
+
+---
+
+## Jogo de Super Trunfo com Personagens da Marvel <a name="jogo-super-trunfo"></a>
+<a href="https://github.com/ThesllaDev/Simple-Projects/blob/master/Jogo-Super-Trunfo-Marvel/README-JOGO-SUPER-TRUNFO-MARVEL.MD" >![](./Jogo-Super-Trunfo-Marvel/assets/img/banner-jogo-super-trunfo-marvel.png)</a>
+
+<a href="https://codepen.io/theslladev/full/ExZZQaB" target="_blank">Veja o funcionando </a>
+
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Jogo-Super-Trunfo-Marvel)
+
+[Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/blob/master/Jogo-Super-Trunfo-Marvel/README-JOGO-SUPER-TRUNFO-MARVEL.md)
 
 ---
 
