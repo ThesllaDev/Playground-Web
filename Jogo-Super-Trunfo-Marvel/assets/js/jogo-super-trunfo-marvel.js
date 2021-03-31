@@ -95,6 +95,7 @@ const btnDraw = document.querySelector('#btnDraw');
 const btnChoose = document.querySelector('#btnChoose');
 const options = document.querySelector("#options");
 const playerCard = document.querySelector("#playerCard");
+const machineCard = document.querySelector("#machineCard");
 
 btnChoose.disabled = true;
 
@@ -143,4 +144,15 @@ function getSelectedAttribute() {
         }
     }
     return attribute;
+}
+
+function displayMachineCard(card) {
+    machineCard.insertAdjacentHTML("afterbegin", generateCard(card));
+}
+
+function disableAttributes() {
+    let radioButton = document.getElementsByName('attribute');
+    for (let i=0; radioButton.length; i++) {
+        radioButton[i].disabled = true;
+    }
 }
