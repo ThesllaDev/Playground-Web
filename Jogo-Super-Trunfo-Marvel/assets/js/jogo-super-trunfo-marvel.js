@@ -133,3 +133,14 @@ function displayOptions(card) {
         options.insertAdjacentHTML("beforeend", attributeOptions);
     }
 }
+
+function getSelectedAttribute() {
+    let radioButton = document.getElementsByName('attribute');
+    let attribute = false;
+    for (let i = 0; i < radioButton.length; i++) {
+        if (radioButton[i].checked) {
+            attribute = radioButton[i].value;
+        }
+    }
+    return attribute;
+}
