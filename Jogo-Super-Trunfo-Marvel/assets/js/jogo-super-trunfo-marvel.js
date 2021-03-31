@@ -93,6 +93,7 @@ const listOfCards = [god, blackRay, cMarvel, hela, ironMan, panther, shuri, thor
 
 const btnDraw = document.querySelector('#btnDraw');
 const btnChoose = document.querySelector('#btnChoose');
+const gameOptions = document.querySelector('#gameOptions');
 const options = document.querySelector("#options");
 const playerCard = document.querySelector("#playerCard");
 const machineCard = document.querySelector("#machineCard");
@@ -171,5 +172,7 @@ function play() {
     }
     displayMachineCard(cardOfMachine);
     btnChoose.disabled = true;
+    gameOptions.insertAdjacentHTML("beforeend", `<input type="button" value="Jogar de Novo"
+    class="btn-restart-game" onClick="window.location.reload()">`);
     disableAttributes();
 }
