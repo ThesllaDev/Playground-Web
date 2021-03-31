@@ -156,3 +156,20 @@ function disableAttributes() {
         radioButton[i].disabled = true;
     }
 }
+
+function play() {
+    let selectedAttribute = getSelectedAttribute();
+    if (cardOfPlayer.attributes[selectedAttribute] > cardOfMachine.attributes[selectedAttribute]) {
+        options.insertAdjacentHTML("beforebegin", `<h3>Você ganhou! A carta do oponente
+        "${cardOfMachine.name}" tem o atributo "${selectedAttribute}" menor</h3>`);
+    } else if (cardOfPlayer.attributes[selectedAttribute] < cardOfMachine.attributes[selectedAttribute]) {
+        options.insertAdjacentHTML("beforebegin", `<h3>Você perdeu! A carta do oponente
+        "${cardOfMachine.name}" tem o atributo "${selectedAttribute}" maior</h3>`);
+    } else {
+        options.insertAdjacentHTML("beforebegin", `<h3>Você empatou! A carta do oponente
+        "${cardOfMachine.name}" tem o atributo "${selectedAttribute}" igual</h3>`);
+    }
+    displayMachineCard(cardOfMachine);
+    btnChoose.disabled = true;
+    disableAttributes();
+}
