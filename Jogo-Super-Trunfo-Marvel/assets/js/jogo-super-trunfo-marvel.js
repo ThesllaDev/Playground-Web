@@ -93,6 +93,8 @@ const listOfCards = [god, blackRay, cMarvel, hela, ironMan, panther, shuri, thor
 
 const btnDraw = document.querySelector('#btnDraw');
 const btnChoose = document.querySelector('#btnChoose');
+const options = document.querySelector("#options");
+const playerCard = document.querySelector("#playerCard");
 
 btnChoose.disabled = true;
 
@@ -106,4 +108,28 @@ function drawCard() {
     cardOfMachine = listOfCards[ramdomCardMachine];
     btnDraw.disabled = true;
     btnChoose.disabled = false;
+    displayPlayerCard(cardOfPlayer);
+    displayOptions(cardOfPlayer);
+}
+
+function displayPlayerCard(card) {
+    playerCard.insertAdjacentHTML("afterbegin", generateCard(card));
+}
+
+function generateCard(card) {
+    let cardHTML = `<h3>Nome: ${card.name}</h3>
+        <img src="${card.image}" class="img-card" alt="Imagem do ${card.name}" />`
+        for (attribute in card.attributes) {
+            cardHTML += `<p>${attribute}  :  ${card.attributes[attribute]}</p>`;
+        }
+    return cardHTML;
+}
+
+function displayOptions(card) {
+    for (let attribute in card.attributes){
+        attributeOptions = `
+        <input type="radio" id="${attribute}" name="attribute" value="${attribute}" checked />
+        <label for="${attribute}"> ${attribute}: ${cardOfPlayer.attributes[attribute]}</label><br>`;
+        options.insertAdjacentHTML("beforeend", attributeOptions);
+    }
 }
