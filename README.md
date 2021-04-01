@@ -133,7 +133,7 @@
 ---
 
 ## Jogo de Super Trunfo com Personagens da Marvel <a name="jogo-super-trunfo"></a>
-<a href="https://github.com/ThesllaDev/Simple-Projects/blob/master/Jogo-Super-Trunfo-Marvel/README-JOGO-SUPER-TRUNFO-MARVEL.MD" >![](./Jogo-Super-Trunfo-Marvel/assets/img/banner-jogo-super-trunfo-marvel.png)</a>
+<a href="https://github.com/ThesllaDev/Simple-Projects/blob/master/Jogo-Super-Trunfo-Marvel/README-JOGO-SUPER-TRUNFO-MARVEL.md" >![](./Jogo-Super-Trunfo-Marvel/assets/img/banner-jogo-super-trunfo-marvel.png)</a>
 
 <a href="https://codepen.io/theslladev/full/ExZZQaB" target="_blank">Veja o funcionando </a>
 

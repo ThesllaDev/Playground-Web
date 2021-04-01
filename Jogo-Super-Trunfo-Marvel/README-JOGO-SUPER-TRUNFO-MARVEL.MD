@@ -9,7 +9,7 @@
 
 <div align="center">
 
-![](./assets/img/background-jogo-super-trunfo-marvel.png)
+![](./assets/img/banner-jogo-super-trunfo-marvel.png)
 
 <a href="https://codepen.io/theslladev/full/ExZZQaB" target="_blank">Veja o funcionando </a>
 
