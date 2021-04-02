@@ -91,6 +91,9 @@ const wScarlet = {
 
 const listOfCards = [god, blackRay, cMarvel, hela, ironMan, panther, shuri, thor, wScarlet];
 
+let playerPoints = 0;
+let machinePoints = 0;
+
 const btnDraw = document.querySelector('#btnDraw');
 const btnChoose = document.querySelector('#btnChoose');
 const gameOptions = document.querySelector('#gameOptions');
@@ -99,6 +102,13 @@ const playerCard = document.querySelector("#playerCard");
 const machineCard = document.querySelector("#machineCard");
 
 btnChoose.disabled = true;
+
+function updateScoreboard() {
+    const scoreboard = document.querySelector('#scoreboard');
+    let scoreboardResult = `Pontos: Jogador: ${playerPoints} vs ${machinePoints} Máquina`;
+    scoreboard.textContent = scoreboardResult;
+}
+updateScoreboard();
 
 function drawCard() {
     let ramdomCardPlayer;
@@ -163,9 +173,11 @@ function play() {
     if (cardOfPlayer.attributes[selectedAttribute] > cardOfMachine.attributes[selectedAttribute]) {
         options.insertAdjacentHTML("beforebegin", `<h3>Você ganhou! A carta do oponente
         "${cardOfMachine.name}" tem o atributo "${selectedAttribute}" menor</h3>`);
+        playerPoints++;
     } else if (cardOfPlayer.attributes[selectedAttribute] < cardOfMachine.attributes[selectedAttribute]) {
         options.insertAdjacentHTML("beforebegin", `<h3>Você perdeu! A carta do oponente
         "${cardOfMachine.name}" tem o atributo "${selectedAttribute}" maior</h3>`);
+        machinePoints++;
     } else {
         options.insertAdjacentHTML("beforebegin", `<h3>Você empatou! A carta do oponente
         "${cardOfMachine.name}" tem o atributo "${selectedAttribute}" igual</h3>`);
@@ -174,5 +186,6 @@ function play() {
     btnChoose.disabled = true;
     gameOptions.insertAdjacentHTML("beforeend", `<input type="button" value="Jogar de Novo"
     class="btn-restart-game" onClick="window.location.reload()">`);
+    updateScoreboard();
     disableAttributes();
 }
