@@ -117,17 +117,17 @@ function updateNumberOfCards() {
 updateNumberOfCards();
 
 function drawCard() {
-    let ramdomCardPlayer;
     let ramdomCardMachine = parseInt(Math.random() * (listOfCards.length));
-    do {
-        ramdomCardPlayer = parseInt(Math.random() * (listOfCards.length));
-    } while (ramdomCardPlayer == ramdomCardMachine)
-    cardOfPlayer = listOfCards[ramdomCardPlayer];
     cardOfMachine = listOfCards[ramdomCardMachine];
+    listOfCards.splice(ramdomCardMachine, 1);
+    let ramdomCardPlayer = parseInt(Math.random() * (listOfCards.length));
+    cardOfPlayer = listOfCards[ramdomCardPlayer];
+    listOfCards.splice(ramdomCardPlayer, 1);
     btnDraw.disabled = true;
     btnChoose.disabled = false;
     displayPlayerCard(cardOfPlayer);
     displayOptions(cardOfPlayer);
+    updateNumberOfCards();
 }
 
 function displayPlayerCard(card) {
