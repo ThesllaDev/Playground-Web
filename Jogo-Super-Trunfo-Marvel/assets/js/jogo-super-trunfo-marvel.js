@@ -161,13 +161,6 @@ function displayMachineCard(card) {
     machineCard.insertAdjacentHTML("afterbegin", generateCard(card));
 }
 
-function disableAttributes() {
-    let radioButton = document.getElementsByName('attribute');
-    for (let i=0; radioButton.length; i++) {
-        radioButton[i].disabled = true;
-    }
-}
-
 function play() {
     let selectedAttribute = getSelectedAttribute();
     if (cardOfPlayer.attributes[selectedAttribute] > cardOfMachine.attributes[selectedAttribute]) {
@@ -187,5 +180,4 @@ function play() {
     gameOptions.insertAdjacentHTML("beforeend", `<input type="button" value="Jogar de Novo"
     class="btn-restart-game" onClick="window.location.reload()">`);
     updateScoreboard();
-    disableAttributes();
 }
