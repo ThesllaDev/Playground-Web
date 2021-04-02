@@ -97,9 +97,10 @@ let machinePoints = 0;
 const btnDraw = document.querySelector('#btnDraw');
 const btnChoose = document.querySelector('#btnChoose');
 const gameOptions = document.querySelector('#gameOptions');
-const options = document.querySelector("#options");
-const playerCard = document.querySelector("#playerCard");
-const machineCard = document.querySelector("#machineCard");
+const options = document.querySelector('#options');
+const playerCard = document.querySelector('#playerCard');
+const numberOfCards = document.querySelector('#numberOfCards')
+const machineCard = document.querySelector('#machineCard');
 
 btnChoose.disabled = true;
 
@@ -109,6 +110,11 @@ function updateScoreboard() {
     scoreboard.textContent = scoreboardResult;
 }
 updateScoreboard();
+
+function updateNumberOfCards() {
+    numberOfCards.textContent = `Quantidade de cartas no jogo: ${listOfCards.length}`
+}
+updateNumberOfCards();
 
 function drawCard() {
     let ramdomCardPlayer;
