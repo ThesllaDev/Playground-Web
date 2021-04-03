@@ -99,10 +99,12 @@ const btnChoose = document.querySelector('#btnChoose');
 const gameOptions = document.querySelector('#gameOptions');
 const options = document.querySelector('#options');
 const playerCard = document.querySelector('#playerCard');
-const numberOfCards = document.querySelector('#numberOfCards')
 const machineCard = document.querySelector('#machineCard');
+const numberOfCards = document.querySelector('#numberOfCards');
+const btnNextRound = document.querySelector('#btnNextRound');
 
 btnChoose.disabled = true;
+btnNextRound.disabled = true;
 
 function updateScoreboard() {
     const scoreboard = document.querySelector('#scoreboard');
@@ -117,10 +119,10 @@ function updateNumberOfCards() {
 updateNumberOfCards();
 
 function drawCard() {
-    let ramdomCardMachine = parseInt(Math.random() * (listOfCards.length));
+    let ramdomCardMachine = parseInt(Math.random() * listOfCards.length);
     cardOfMachine = listOfCards[ramdomCardMachine];
     listOfCards.splice(ramdomCardMachine, 1);
-    let ramdomCardPlayer = parseInt(Math.random() * (listOfCards.length));
+    let ramdomCardPlayer = parseInt(Math.random() * listOfCards.length);
     cardOfPlayer = listOfCards[ramdomCardPlayer];
     listOfCards.splice(ramdomCardPlayer, 1);
     btnDraw.disabled = true;
@@ -131,20 +133,20 @@ function drawCard() {
 }
 
 function displayPlayerCard(card) {
-    playerCard.insertAdjacentHTML("afterbegin", generateCard(card));
+    playerCard.insertAdjacentHTML('afterbegin', generateCard(card));
 }
 
 function generateCard(card) {
     let cardHTML = `<h3>Nome: ${card.name}</h3>
         <img src="${card.image}" class="img-card" alt="Imagem do ${card.name}" />`
-        for (attribute in card.attributes) {
-            cardHTML += `<p>${attribute}  :  ${card.attributes[attribute]}</p>`;
-        }
+    for (attribute in card.attributes) {
+        cardHTML += `<p>${attribute}  :  ${card.attributes[attribute]}</p>`;
+    }
     return cardHTML;
 }
 
 function displayOptions(card) {
-    for (let attribute in card.attributes){
+    for (let attribute in card.attributes) {
         attributeOptions = `
         <input type="radio" id="${attribute}" name="attribute" value="${attribute}" checked />
         <label for="${attribute}"> ${attribute}: ${cardOfPlayer.attributes[attribute]}</label><br>`;
@@ -170,20 +172,41 @@ function displayMachineCard(card) {
 function play() {
     let selectedAttribute = getSelectedAttribute();
     if (cardOfPlayer.attributes[selectedAttribute] > cardOfMachine.attributes[selectedAttribute]) {
-        options.insertAdjacentHTML("beforebegin", `<h3>Você ganhou! A carta do oponente
+        options.insertAdjacentHTML('afterbegin', `<h3>Você ganhou! A carta do oponente
         "${cardOfMachine.name}" tem o atributo "${selectedAttribute}" menor</h3>`);
         playerPoints++;
     } else if (cardOfPlayer.attributes[selectedAttribute] < cardOfMachine.attributes[selectedAttribute]) {
-        options.insertAdjacentHTML("beforebegin", `<h3>Você perdeu! A carta do oponente
+        options.insertAdjacentHTML('afterbegin', `<h3>Você perdeu! A carta do oponente
         "${cardOfMachine.name}" tem o atributo "${selectedAttribute}" maior</h3>`);
         machinePoints++;
     } else {
-        options.insertAdjacentHTML("beforebegin", `<h3>Você empatou! A carta do oponente
+        options.insertAdjacentHTML('afterbegin', `<h3>Você empatou! A carta do oponente
         "${cardOfMachine.name}" tem o atributo "${selectedAttribute}" igual</h3>`);
     }
     displayMachineCard(cardOfMachine);
+
+    if (listOfCards.length == 0) {
+        options.insertAdjacentHTML('afterbegin', `Fim de jogo! As cartas do baralho acabaram`);
+        if (playerPoints > machinePoints) {
+            options.insertAdjacentHTML('afterend', `Parabéns! Você venceu o oponente`);
+        } else if (machinePoints < playerPoints) {
+            options.insertAdjacentHTML('afterend', `Você perdeu, o oponente fez mais pontos!`);
+        } else {
+            options.insertAdjacentHTML('afterend', `Empatou!`);
+        }
+    } else {
+        btnNextRound.disabled = false;
+    }
+
     btnChoose.disabled = true;
-    gameOptions.insertAdjacentHTML("beforeend", `<input type="button" value="Jogar de Novo"
-    class="btn-restart-game" onClick="window.location.reload()">`);
     updateScoreboard();
+}
+
+function nextRound() {
+    playerCard.innerHTML = "";
+    machineCard.innerHTML = "";
+    options.innerHTML = "";
+    btnDraw.disabled = false;
+    btnNextRound.disabled = true;
+    console.log('Calma');
 }
