@@ -28,6 +28,16 @@ const cMarvel = {
         power: 7
     }
 }
+const deadpool = {
+    name: "Deadpool",
+    image: "https://rollingstone.uol.com.br/media/_versions/deadpool_widelg.jpg",
+    attributes: {
+        attack: 9,
+        defense: 10,
+        intelligence: 5,
+        power: 8
+    }
+}
 const hela = {
     name: "Hela",
     image: "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/c/c0/Thor_Ragnarok_Textless_Character_Posters_01.jpg",
@@ -89,7 +99,7 @@ const wScarlet = {
     }
 }
 
-const listOfCards = [god, blackRay, cMarvel, hela, ironMan, panther, shuri, thor, wScarlet];
+const listOfCards = [god, blackRay, cMarvel, deadpool, hela, ironMan, panther, shuri, thor, wScarlet];
 
 let playerPoints = 0;
 let machinePoints = 0;
@@ -186,13 +196,14 @@ function play() {
     displayMachineCard(cardOfMachine);
 
     if (listOfCards.length == 0) {
+        options.innerHTML = "";
         options.insertAdjacentHTML('afterbegin', `Fim de jogo! As cartas do baralho acabaram`);
         if (playerPoints > machinePoints) {
-            options.insertAdjacentHTML('afterend', `Parabéns! Você venceu o oponente`);
+            options.insertAdjacentHTML('beforeend', `<p>Parabéns! Você venceu o oponente</p>`);
         } else if (machinePoints < playerPoints) {
-            options.insertAdjacentHTML('afterend', `Você perdeu, o oponente fez mais pontos!`);
+            options.insertAdjacentHTML('beforeend', `<p>Você perdeu, o oponente fez mais pontos!</p>`);
         } else {
-            options.insertAdjacentHTML('afterend', `Empatou!`);
+            options.insertAdjacentHTML('beforeend', `<p>Empatou!</p>`);
         }
     } else {
         btnNextRound.disabled = false;
