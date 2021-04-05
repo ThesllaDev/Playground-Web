@@ -1,5 +1,73 @@
 *{
     box-sizing: border-box;
+    list-style: none;
     margin: 0px;
     padding: 0px;
+}
+
+body{
+    background-color: #7B1FA2;
+}
+
+.main-content{
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top: 30px;
+    .certificard{
+        align-items: center;
+        background-color: #fff;
+        border: 3px solid #03A9F4;
+        box-shadow: 5px 5px 15px 30px #212121;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 60px auto;
+        max-width: 1000px;
+        padding: 15px 30px 30px;
+        .header-certificard{
+            background: url("../img/background-header.png");
+            background-size: cover;
+            margin: 0 15px 15px;
+            width: 100%;
+            .img-profile{
+                border: 10px solid #03A9F4;
+                border-radius: 50%;
+                box-shadow: 3px 3px 10px 10px #212121;
+                display: block;
+                height: 170px;
+                margin: -50px auto 0;
+                width: 170px;
+            }
+        }
+        .about-me{
+            margin: 15px;
+            text-align: center;
+            .social-media{
+                display: flex;
+                justify-content: space-around;
+                .fab{
+                    color: #001;
+                    font-size: 50px;
+                }
+            }
+        }
+        .about-immersion{
+            background-color: #BDBDBD;
+            border: 3px solid #001;
+            padding: 30px;
+            .header-immersion{
+                text-align: center;
+            }
+            .project-titles{
+                margin: 10px 0;
+            }
+            .project-links{
+                margin-left: 30px;
+            }
+        }
+        .message{
+            margin: 15px auto;
+            max-width: 80ch;
+        }
+    }
 }
