@@ -21,6 +21,7 @@
 - [Lista de Filmes <a name="lista-de-filmes"></a>](#lista-de-filmes-)
 - [Tabela de Classificação da NBA <a name="tabela-de-classificação"></a>](#tabela-de-classificação-da-nba-)
 - [Jogo de Super Trunfo com Personagens da Marvel <a name="jogo-super-trunfo"></a>](#jogo-de-super-trunfo-com-personagens-da-marvel-)
+- [Certificard <a name="certificard"></a>](#certificard-)
   - [👷 Autor](#-autor)
   - [📝 Licença](#-licença)
 
@@ -140,6 +141,17 @@
 [Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Jogo-Super-Trunfo-Marvel)
 
 [Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/blob/master/Jogo-Super-Trunfo-Marvel/README-JOGO-SUPER-TRUNFO-MARVEL.md)
+
+---
+
+## Certificard <a name="certificard"></a>
+<a href="https://github.com/ThesllaDev/Simple-Projects/blob/master/Certificard/README-CERTIFICARD.md" >![](./Certificard/assets/img/banner-certificard.png)</a>
+
+<a href="https://codepen.io/theslladev/full/MWJoMGd" target="_blank">Veja o funcionando </a>
+
+[Código](https://github.com/ThesllaDev/Simple-Projects/blob/master/Certificard)
+
+[Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/blob/master/Certificard/README-CERTIFICARD.md)
 
 ---
 
