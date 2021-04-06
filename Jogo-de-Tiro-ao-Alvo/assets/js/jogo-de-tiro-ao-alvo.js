@@ -1,14 +1,14 @@
-var targetRadius = 10;
-var targetPositionX;
-var targetPositionY;
-var canvas = document.getElementById("canvas");
-var context = canvas.getContext("2d");
+let targetRadius = 10;
+let targetPositionX;
+let targetPositionY;
+const canvas = document.querySelector('#canvas');
+const context = canvas.getContext('2d');
 
 var drawTarget = function (x, y) {
-    circles(x, y, targetRadius + 30, "white");
-    circles(x, y, targetRadius + 20, "red");
-    circles(x, y, targetRadius + 10, "white");
-    circles(x, y, targetRadius, "red");
+    circles(x, y, targetRadius + 30, 'white');
+    circles(x, y, targetRadius + 20, 'red');
+    circles(x, y, targetRadius + 10, 'white');
+    circles(x, y, targetRadius, 'red');
 };
 
 var circles = function (x, y, targetRadius, color) {
@@ -35,10 +35,10 @@ var displays = function () {
 
 setInterval(displays, 1500);
 
-var hits = document.getElementById("number-of-hits");
-var numberOfHits = 0;
-var errors = document.getElementById("number-of-errors");
-var numberOfErrors = 0;
+const hits = document.querySelector('#number-of-hits');
+let numberOfHits = 0;
+const errors = document.querySelector('#number-of-errors');
+let numberOfErrors = 0;
 
 canvas.onclick = function (event) {
     var x = event.pageX - canvas.offsetLeft;
@@ -46,9 +46,9 @@ canvas.onclick = function (event) {
     if ((x > targetPositionX - targetRadius) && (x < targetPositionX + targetRadius) &&
         (y > targetPositionY - targetRadius) && (y < targetPositionY + targetRadius)) {
         numberOfHits++;
-        hits.innerHTML = numberOfHits;
+        hits.textContent = numberOfHits;
     } else {
         numberOfErrors++;
-        errors.innerHTML = numberOfErrors;
+        errors.textContent = numberOfErrors;
     };
 };
