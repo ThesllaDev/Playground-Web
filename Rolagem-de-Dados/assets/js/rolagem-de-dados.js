@@ -1,8 +1,8 @@
-var cube = document.querySelector('.cube');
-var currentSide = 6;
+const cube = document.querySelector('.cube');
+let currentSide = 6;
 cube.classList.add('show-' + currentSide);
 
-var cubeSize = -1;
+let cubeSize = -1;
 
 function roll() {
     cube.classList.add('spin');
