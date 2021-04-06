@@ -1,40 +1,40 @@
-var attempts = document.getElementById('attempts');
-var attemptValue = document.getElementById('attemptValue');
-var previousNumbers = document.getElementById('previousNumbers');
-var answer = document.getElementById('answer');
+const attempts = document.querySelector('#attempts');
+const attemptValue = document.querySelector('#attemptValue');
+const previousNumbers = document.querySelector('#previousNumbers');
+const answer = document.querySelector('#answer');
 
 var secretNumber = parseInt(Math.random() * 100 + 1);
 var numberOfAttempts = 11;
-console.log(secretNumber);
 
 function checkAndRespond() {
+    answer.style.color = 'red';
+    previousNumbers.style.color = 'red';
     while (numberOfAttempts > 0) {
+        if (attemptValue.value == "") {
+            alert('Insira um número!');
+            break;
+        }
         if (attemptValue.value == secretNumber) {
             numberOfAttempts = 0;
             answer.style.color = 'green';
-            answer.innerHTML = `Parabéns!!! Você acertou, o número correto é: ${attemptValue.value}`;
+            answer.textContent = `Parabéns!!! Você acertou, o número correto é: ${attemptValue.value}`;
             break;
         } else if (numberOfAttempts == 1) {
             numberOfAttempts--;
             attempts.textContent = numberOfAttempts;
-            answer.style.color = 'red';
-            answer.innerHTML = `Game Over, o número correto era: ${secretNumber}`;
+            answer.textContent = `Game Over, o número correto era: ${secretNumber}`;
             break;
         } else if (secretNumber > attemptValue.value) {
             numberOfAttempts--;
             attempts.textContent = numberOfAttempts;
-            previousNumbers.style.color = 'red';
             previousNumbers.textContent += `${attemptValue.value}, `;
-            answer.style.color = 'red';
-            answer.innerHTML = `Você errou, o número é maior que ${attemptValue.value}, tente denovo`;
+            answer.textContent = `Você errou, o número é maior que ${attemptValue.value}, tente denovo`;
             return;
         } else if (secretNumber < attemptValue.value) {
             numberOfAttempts--;
             attempts.textContent = numberOfAttempts;
-            previousNumbers.style.color = 'red';
             previousNumbers.textContent += `${attemptValue.value}, `;
-            answer.style.color = 'red';
-            answer.innerHTML = `Você errou, o número é menor que ${attemptValue.value}, tente denovo`;
+            answer.textContent = `Você errou, o número é menor que ${attemptValue.value}, tente denovo`;
             return;
         }
     }
