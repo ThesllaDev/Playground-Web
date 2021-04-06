@@ -1,6 +1,6 @@
-var canvas = document.getElementById("canvas");
-var context = canvas.getContext("2d");
-var radius = canvas.height / 2;
+const canvas = document.querySelector('#canvas');
+const context = canvas.getContext('2d');
+let radius = canvas.height / 2;
 
 context.translate(radius, radius);
 radius *= 0.9;
@@ -11,26 +11,19 @@ function drawClock() {
   drawTime(context, radius);
 }
 
-var colorGold = "#D4AF0C";
-var colorSilver = "#eee";
-var colorPurple = "#660099";
-var colorViolet = "#3A0057";
-var colorYellow = "#FFF200";
+let colorGold = "#D4AF0C";
+let colorSilver = "#eee";
+let colorPurple = "#660099";
+let colorViolet = "#3A0057";
+let colorYellow = "#FFF200";
 
 function drawFace(context, radius) {
-  var gradient;
+  let gradient;
   context.beginPath();
   context.arc(0, 0, radius, 0, 2 * Math.PI);
   context.fillStyle = colorSilver;
   context.fill();
-  gradient = context.createRadialGradient(
-    0,
-    0,
-    radius * 0.95,
-    0,
-    0,
-    radius * 1.05
-  );
+  gradient = context.createRadialGradient(0, 0, radius * 0.95, 0, 0, radius * 1.05);
   gradient.addColorStop(0, colorGold);
   gradient.addColorStop(0.5, colorYellow);
   gradient.addColorStop(1, colorGold);
@@ -44,8 +37,8 @@ function drawFace(context, radius) {
 }
 
 function drawNumbers(context, radius) {
-  var angles;
-  var numbers;
+  let angles;
+  let numbers;
   context.font = radius * 0.15 + "px arial";
   context.textBaseline = "middle";
   context.textAlign = "center";
