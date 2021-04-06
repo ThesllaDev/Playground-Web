@@ -243,8 +243,8 @@ var teams = [atlantaHawks,
 displayTeamData(teams);
 
 function displayTeamData(teams) {
-    var html = "";
-    for (var i = 0; i < teams.length; i++) {
+    let html = "";
+    for (let i = 0; i < teams.length; i++) {
         html += `<tr class="table-row"><td class="data-cells"><img class="team-logo" src="${teams[i].logo}" alt="Logo do ${teams[i].name}"></td>`
         html += `<td class="data-cells">${teams[i].name}</td>`
         html += `<td class="data-cells">${teams[i].victory}</td>`
@@ -255,8 +255,8 @@ function displayTeamData(teams) {
         html += `<td class="data-cells"><button class="btn-rmv" onClick="rmvVictory('${i}')">Remover Vitória</button></td>`
         html += `<td class="data-cells"><button class="btn-rmv" onClick="rmvDefeat('${i}')">Remover Derrota</button></td></tr>`
     }
-    var leaderboard = document.getElementById('tableBody');
-    leaderboard.innerHTML = html;
+    const leaderboard = document.querySelector('#tableBody');
+    leaderboard.insertAdjacentHTML('afterbegin', html);
 }
 
 atlantaHawks.winRate = toCalculateChanceOfWin(atlantaHawks);
@@ -291,34 +291,34 @@ utahJazz.winRate = toCalculateChanceOfWin(utahJazz);
 washingtonWizards.winRate = toCalculateChanceOfWin(washingtonWizards);
 
 function toCalculateChanceOfWin(team) {
-    var amountOfGames = team.victory + team.defeats;
-    var winPercentage = parseFloat((team.victory / amountOfGames) * 100).toFixed(1);
+    let amountOfGames = team.victory + team.defeats;
+    let winPercentage = parseFloat((team.victory / amountOfGames) * 100).toFixed(1);
     return winPercentage;
 }
 
 function addVictory(i) {
-    var team = teams[i];
+    let team = teams[i];
     team.victory++;
     team.winRate = toCalculateChanceOfWin(team);
     displayTeamData(teams);
 }
 
 function addDefeat(i) {
-    var team = teams[i];
+    let team = teams[i];
     team.defeats++;
     team.winRate = toCalculateChanceOfWin(team)
     displayTeamData(teams);
 }
 
 function rmvVictory(i) {
-    var team = teams[i];
+    let team = teams[i];
     team.victory--;
     team.winRate = toCalculateChanceOfWin(team);
     displayTeamData(teams);
 }
 
 function rmvDefeat(i) {
-    var team = teams[i];
+    let team = teams[i];
     team.defeats--;
     team.winRate = toCalculateChanceOfWin(team)
     displayTeamData(teams);
