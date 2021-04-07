@@ -1,36 +1,99 @@
-*{
+$light-background: #03a9f4;
+$dark-background: #4f0269;
+$light-background-immersion: #2956af;
+$dark-background-immersion: #3c2c8c;
+$light-background-certificard: #3c2c8c;
+$dark-background-certificard: #2956af;
+$light-text: #111;
+$dark-text: #f0eff4;
+$light-link: #f0eff4;
+$dark-link: #001;
+
+@function light-dark($light, $dark) {
+    @return var(--light, #{$light}) var(--dark, #{$dark});
+}
+
+:root {
+    --ON: initial;
+    --OFF: ;
+
+    --bg: #{light-dark($light-background, $dark-background)};
+    --bg-immersion: #{light-dark($light-background-immersion, $dark-background-immersion)};
+    --bg-certificard: #{light-dark($light-background-certificard, $dark-background-certificard)};
+    --text: #{light-dark($light-text, $dark-text)};
+    --link: #{light-dark($light-link, $dark-link)};
+}
+
+.theme-default,
+.theme-light {
+    --light: var(--ON);
+    --dark: var(--OFF);
+}
+
+.theme-dark {
+    --light: var(--OFF);
+    --dark: var(--ON);
+}
+
+@media (prefers-color-scheme: dark) {
+    .theme-default {
+        --light: var(--OFF);
+        --dark: var(--ON);
+    }
+}
+
+* {
     box-sizing: border-box;
     list-style: none;
     margin: 0px;
     padding: 0px;
 }
 
-body{
-    background-color: #7B1FA2;
+body {
+    background: var(--bg, $light-background);
+    color: var(--text, $light-text);
+    transition: 1s all;
 }
 
-.main-content{
+.main-content {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
     font-weight: bold;
     line-height: 1.5;
-    margin-top: 30px;
-    .certificard{
+    margin: 30px;
+    .btn-color-theme {
+        background: var(--bg-certificard, #2956af);
+        border: 3px solid #bdbdbd;
+        border-radius: 10px;
+        box-shadow: 6px 6px #001;
+        font-weight: bold;
+        margin-bottom: 30px;
+        padding: 10px;
+        width: 60px;
+        &:active {
+            box-shadow: 0 1px #001;
+            transform: translate(3px, 3px);
+        }
+    }
+    .certificard {
         align-items: center;
-        background-color: #fff;
-        border: 3px solid #03A9F4;
+        background: var(--bg-certificard, #2956af);
+        border: 3px solid $light-background;
         box-shadow: 5px 5px 15px 30px #212121;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 60px auto;
+        margin: 0 auto;
         max-width: 1000px;
         padding: 15px 30px 30px;
-        .header-certificard{
+        .header-certificard {
             background: url("../img/background-header.png");
             background-size: cover;
             margin: 0 15px 15px;
             width: 100%;
-            .img-profile{
-                border: 10px solid #03A9F4;
+            .img-profile {
+                border: 10px solid #03a9f4;
                 border-radius: 50%;
                 box-shadow: 3px 3px 10px 10px #212121;
                 display: block;
@@ -39,33 +102,36 @@ body{
                 width: 170px;
             }
         }
-        .about-me{
+        a:any-link {
+            color: var(--link, $light-link);
+        }
+        .about-me {
             margin: 15px;
             text-align: center;
-            .social-media{
+            .social-media {
                 display: flex;
                 justify-content: space-around;
-                .fab{
+                .fab {
                     color: #001;
                     font-size: 50px;
                 }
             }
         }
-        .about-immersion{
-            background-color: #BDBDBD;
-            border: 3px solid #001;
+        .about-immersion {
+            background: var(--bg-immersion, #3c2c8c);
+            border: 3px solid #bdbdbd;
             padding: 30px;
-            .header-immersion{
+            .header-immersion {
                 text-align: center;
             }
-            .project-titles{
+            .project-titles {
                 margin: 10px 0;
             }
-            .project-links{
+            .project-links {
                 margin-left: 30px;
             }
         }
-        .message{
+        .message {
             margin: 15px auto;
             max-width: 80ch;
         }

@@ -1,3 +1,31 @@
+:root {
+  --ON: initial;
+  --OFF: ;
+  --bg: var(--light, #03a9f4) var(--dark, #4f0269);
+  --bg-immersion: var(--light, #2956af) var(--dark, #3c2c8c);
+  --bg-certificard: var(--light, #3c2c8c) var(--dark, #2956af);
+  --text: var(--light, #111) var(--dark, #f0eff4);
+  --link: var(--light, #f0eff4) var(--dark, #001);
+}
+
+.theme-default,
+.theme-light {
+  --light: var(--ON);
+  --dark: var(--OFF);
+}
+
+.theme-dark {
+  --light: var(--OFF);
+  --dark: var(--ON);
+}
+
+@media (prefers-color-scheme: dark) {
+  .theme-default {
+    --light: var(--OFF);
+    --dark: var(--ON);
+  }
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -7,21 +35,53 @@
 }
 
 body {
-  background-color: #7B1FA2;
+  background: var(--bg, #03a9f4);
+  color: var(--text, #111);
+  -webkit-transition: 1s all;
+  transition: 1s all;
 }
 
 .main-content {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-weight: bold;
   line-height: 1.5;
-  margin-top: 30px;
+  margin: 30px;
+}
+
+.main-content .btn-color-theme {
+  background: var(--bg-certificard, #2956af);
+  border: 3px solid #bdbdbd;
+  border-radius: 10px;
+  -webkit-box-shadow: 6px 6px #001;
+          box-shadow: 6px 6px #001;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 60px;
+}
+
+.main-content .btn-color-theme:active {
+  -webkit-box-shadow: 0 1px #001;
+          box-shadow: 0 1px #001;
+  -webkit-transform: translate(3px, 3px);
+          transform: translate(3px, 3px);
 }
 
 .main-content .certificard {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fff;
-  border: 3px solid #03A9F4;
+  background: var(--bg-certificard, #2956af);
+  border: 3px solid #03a9f4;
   -webkit-box-shadow: 5px 5px 15px 30px #212121;
           box-shadow: 5px 5px 15px 30px #212121;
   display: -webkit-box;
@@ -34,7 +94,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 60px auto;
+  margin: 0 auto;
   max-width: 1000px;
   padding: 15px 30px 30px;
 }
@@ -47,7 +107,7 @@ body {
 }
 
 .main-content .certificard .header-certificard .img-profile {
-  border: 10px solid #03A9F4;
+  border: 10px solid #03a9f4;
   border-radius: 50%;
   -webkit-box-shadow: 3px 3px 10px 10px #212121;
           box-shadow: 3px 3px 10px 10px #212121;
@@ -55,6 +115,18 @@ body {
   height: 170px;
   margin: -50px auto 0;
   width: 170px;
+}
+
+.main-content .certificard a:-webkit-any-link {
+  color: var(--link, #f0eff4);
+}
+
+.main-content .certificard a:-moz-any-link {
+  color: var(--link, #f0eff4);
+}
+
+.main-content .certificard a:any-link {
+  color: var(--link, #f0eff4);
 }
 
 .main-content .certificard .about-me {
@@ -76,8 +148,8 @@ body {
 }
 
 .main-content .certificard .about-immersion {
-  background-color: #BDBDBD;
-  border: 3px solid #001;
+  background: var(--bg-immersion, #3c2c8c);
+  border: 3px solid #bdbdbd;
   padding: 30px;
 }
 
