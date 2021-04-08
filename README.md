@@ -112,7 +112,7 @@
 ---
 
 ## Lista de Filmes <a name="lista-de-filmes"></a>
-<a href="https://github.com/ThesllaDev/Simple-Projects/tree/master/Lista-de-Filmes/README-LISTA-DE-FILMES.md" >![](./Lista-de-Filmes/assets/img/banner-lista-de-filmes.png)</a>
+<a href="https://github.com/ThesllaDev/Simple-Projects/tree/master/Lista-de-Filmes/README-LISTA-DE-FILMES.md" >![](./Lista-de-Filmes/assets/img/banner-lista-de-filmes.gif)</a>
 
 <a href="https://codepen.io/theslladev/full/eYgZKXy" target="_blank">Veja o funcionando </a>
 
@@ -123,7 +123,7 @@
 ---
 
 ## Tabela de Classificação da NBA <a name="tabela-de-classificação"></a>
-<a href="https://github.com/ThesllaDev/Simple-Projects/tree/master/Tabela-de-Classificacao/README-TABELA-DE-CLASSIFICACAO.md" >![](./Tabela-de-Classificacao/assets/img/banner-tabela-de-classificacao.png)</a>
+<a href="https://github.com/ThesllaDev/Simple-Projects/tree/master/Tabela-de-Classificacao/README-TABELA-DE-CLASSIFICACAO.md" >![](./Tabela-de-Classificacao/assets/img/banner-tabela-de-classificacao.gif)</a>
 
 <a href="https://codepen.io/theslladev/full/XWpjYxp" target="_blank">Veja o funcionando </a>
 
@@ -134,7 +134,7 @@
 ---
 
 ## Jogo de Super Trunfo com Personagens da Marvel <a name="jogo-super-trunfo"></a>
-<a href="https://github.com/ThesllaDev/Simple-Projects/blob/master/Jogo-Super-Trunfo-Marvel/README-JOGO-SUPER-TRUNFO-MARVEL.md" >![](./Jogo-Super-Trunfo-Marvel/assets/img/banner-jogo-super-trunfo-marvel.png)</a>
+<a href="https://github.com/ThesllaDev/Simple-Projects/blob/master/Jogo-Super-Trunfo-Marvel/README-JOGO-SUPER-TRUNFO-MARVEL.md" >![](./Jogo-Super-Trunfo-Marvel/assets/img/banner-jogo-super-trunfo-marvel.gif)</a>
 
 <a href="https://codepen.io/theslladev/full/ExZZQaB" target="_blank">Veja o funcionando </a>
 
@@ -145,7 +145,7 @@
 ---
 
 ## Certificard <a name="certificard"></a>
-<a href="https://github.com/ThesllaDev/Simple-Projects/blob/master/Certificard/README-CERTIFICARD.md" >![](./Certificard/assets/img/banner-certificard.png)</a>
+<a href="https://github.com/ThesllaDev/Simple-Projects/blob/master/Certificard/README-CERTIFICARD.md" >![](./Certificard/assets/img/banner-certificard.gif)</a>
 
 <a href="https://codepen.io/theslladev/full/MWJoMGd" target="_blank">Veja o funcionando </a>
 

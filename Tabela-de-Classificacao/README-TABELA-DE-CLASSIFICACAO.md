@@ -9,7 +9,7 @@
 
 <div align="center">
 
-![](./assets/img/banner-tabela-de-classificacao.png)
+![](./assets/img/banner-tabela-de-classificacao.gif)
 
 <a href="https://codepen.io/theslladev/full/XWpjYxp" target="_blank">Veja o funcionando </a>
 

@@ -9,7 +9,7 @@
 
 <div align="center">
 
-![](./assets/img/banner-certificard.png)
+![](./assets/img/banner-certificard.gif)
 
 <a href="https://codepen.io/theslladev/full/MWJoMGd" target="_blank">Veja o funcionando </a>
 
