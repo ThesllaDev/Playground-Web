@@ -9,7 +9,7 @@
 
 <div align="center">
 
-![](./assets/img/banner-lista-de-filmes.png)
+![](./assets/img/banner-lista-de-filmes.gif)
 
 <a href="https://codepen.io/theslladev/full/eYgZKXy" target="_blank">Veja o funcionando </a>
 
