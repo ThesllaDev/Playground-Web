@@ -43,8 +43,10 @@ let numberOfErrors = 0;
 canvas.onclick = function (event) {
     let x = event.pageX - canvas.offsetLeft;
     let y = event.pageY - canvas.offsetTop;
-    if ((x > targetPositionX - targetRadius) && (x < targetPositionX + targetRadius) &&
-        (y > targetPositionY - targetRadius) && (y < targetPositionY + targetRadius)) {
+    if (x > targetPositionX - targetRadius &&
+        x < targetPositionX + targetRadius &&
+        y > targetPositionY - targetRadius &&
+        y < targetPositionY + targetRadius) {
         numberOfHits++;
         hits.textContent = numberOfHits;
     } else {
