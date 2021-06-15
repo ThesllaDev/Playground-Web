@@ -245,17 +245,18 @@ displayTeamData(teams);
 function displayTeamData(teams) {
     let html = "";
     for (let i = 0; i < teams.length; i++) {
-        html += `<tr class="table-row"><td class="data-cells"><img class="team-logo" src="${teams[i].logo}" alt="Logo do ${teams[i].name}"></td>`
-        html += `<td class="data-cells">${teams[i].name}</td>`
-        html += `<td class="data-cells">${teams[i].victory}</td>`
-        html += `<td class="data-cells">${teams[i].defeats}</td>`
-        html += `<td class="data-cells">${teams[i].winRate}</td>`
-        html += `<td class="data-cells"><button class="btn-add" onClick="addVictory('${i}')">Adicionar Vitória</button></td>`
-        html += `<td class="data-cells"><button class="btn-add" onClick="addDefeat('${i}')">Adicionar Derrota</button></td>`
-        html += `<td class="data-cells"><button class="btn-rmv" onClick="rmvVictory('${i}')">Remover Vitória</button></td>`
-        html += `<td class="data-cells"><button class="btn-rmv" onClick="rmvDefeat('${i}')">Remover Derrota</button></td></tr>`
+        html += `<tr class="table-row"><td class="data-cells"><img class="team-logo" src="${teams[i].logo}" alt="Logo do ${teams[i].name}"></td>
+		<td class="data-cells">${teams[i].name}</td>
+		<td class="data-cells">${teams[i].victory}</td>
+		<td class="data-cells">${teams[i].defeats}</td>
+		<td class="data-cells">${teams[i].winRate}</td>
+		<td class="data-cells"><button class="btn-add" onClick="addVictory('${i}')">Adicionar Vitória</button></td>
+		<td class="data-cells"><button class="btn-add" onClick="addDefeat('${i}')">Adicionar Derrota</button></td>
+		<td class="data-cells"><button class="btn-rmv" onClick="rmvVictory('${i}')">Remover Vitória</button></td>
+		<td class="data-cells"><button class="btn-rmv" onClick="rmvDefeat('${i}')">Remover Derrota</button></td></tr>`;
     }
     const leaderboard = document.querySelector('#tableBody');
+    leaderboard.innerHTML = "";
     leaderboard.insertAdjacentHTML('afterbegin', html);
 }
 
@@ -320,6 +321,6 @@ function rmvVictory(i) {
 function rmvDefeat(i) {
     let team = teams[i];
     team.defeats--;
-    team.winRate = toCalculateChanceOfWin(team)
+    team.winRate = toCalculateChanceOfWin(team);
     displayTeamData(teams);
 }
