@@ -6,24 +6,29 @@ const answer = document.querySelector('#answer');
 var secretNumber = parseInt(Math.random() * 100 + 1);
 var numberOfAttempts = 11;
 
+function gameOver() {
+	attemptValue.disabled = true;
+	btnSubmit.disabled = true;
+}
+
 function checkAndRespond() {
     answer.style.color = 'red';
     previousNumbers.style.color = 'red';
     while (numberOfAttempts > 0) {
-        if (attemptValue.value == "") {
+        if (attemptValue.value === "") {
             alert('Insira um número!');
             break;
         }
-        if (attemptValue.value == secretNumber) {
+        if (attemptValue.value === secretNumber) {
             numberOfAttempts = 0;
             answer.style.color = 'green';
             answer.textContent = `Parabéns!!! Você acertou, o número correto é: ${attemptValue.value}`;
-            break;
-        } else if (numberOfAttempts == 1) {
+            gameOver();
+        } else if (numberOfAttempts === 1) {
             numberOfAttempts--;
             attempts.textContent = numberOfAttempts;
             answer.textContent = `Game Over, o número correto era: ${secretNumber}`;
-            break;
+            gameOver();
         } else if (secretNumber > attemptValue.value) {
             numberOfAttempts--;
             attempts.textContent = numberOfAttempts;
@@ -38,4 +43,8 @@ function checkAndRespond() {
             return;
         }
     }
+	attemptValue.focus();
+	attemptValue.value = "";
 }
+
+btnSubmit.addEventListener("click", checkAndRespond);
