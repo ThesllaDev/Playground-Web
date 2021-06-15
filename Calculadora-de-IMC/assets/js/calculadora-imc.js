@@ -1,15 +1,14 @@
-
 function calcularIMC() {
 	const alturaDoUsuario = document.querySelector('#altura').value.replace(/,/g, ".");
 	const pesoDoUsuario = document.querySelector('#peso').value.replace(/,/g, ".");
 	const message = document.querySelector('#message');
 
-	if (pesoDoUsuario == "" || alturaDoUsuario == "") {
+	if (pesoDoUsuario === "" || alturaDoUsuario === "") {
 		message.textContent = "Preencha os campos";
 		return false;
 	}
 
-	var imcDoUsuario = pesoDoUsuario / (alturaDoUsuario * alturaDoUsuario);
+	let imcDoUsuario = pesoDoUsuario / (alturaDoUsuario * alturaDoUsuario);
 
 	if (imcDoUsuario < 17) {
 		message.textContent = "Você está muito abaixo do peso";
