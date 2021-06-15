@@ -56,33 +56,18 @@ function addMovie() {
         if (movieNumber >= 0 && movieNumber < 10) {
             if (wishList.includes(movieNumber.toString())) {
                 errorMessage.textContent = "Este filme já está adicionado a lista de desejo, escolha outro";
-                setTimeout(function (){ errorMessage.textContent = ""}, 3000);
+                setTimeout(function () { errorMessage.textContent = ""; }, 3000);
             } else {
                 wishList.push(movieNumber.toString());
                 const cardMovie = document.querySelector('#wishlist');
-                let card = document.createElement('div');
-                card.setAttribute("class", "card-movie");
-                cardMovie.appendChild(card);
-                let figure = document.createElement('figure');
-                figure.setAttribute("class", "movie-figure");
-                let figureCaption = document.createElement('figcaption');
-                figureCaption.setAttribute("class", "movie-title");
-                figureCaption.textContent = moviesName[movieNumber];
-                figure.appendChild(figureCaption);
-                let movieImages = document.createElement('img');
-                movieImages.setAttribute("class", "movie-poster");
-                movieImages.setAttribute("src", moviesPosters[movieNumber]);
-                movieImages.setAttribute("alt", moviesName[movieNumber]);
-                movieImages.setAttribute("title", moviesName[movieNumber]);
-                figure.appendChild(movieImages);
-                card.appendChild(figure);
-                let linkTrailer = document.createElement('a');
-                linkTrailer.setAttribute("href", trailers[movieNumber]);
-                linkTrailer.setAttribute("class", "btn-trailer");
-                linkTrailer.setAttribute("title", `Trailer do filme ${moviesName[movieNumber]}`);
-                linkTrailer.setAttribute("target", "_blank");
-                linkTrailer.textContent = "Trailer do filme";
-                card.appendChild(linkTrailer);
+                let templateCardMovie = `<div class="card-movie">
+							<figure class="movie-figure">
+								<figcaption class="movie-title"> ${moviesName[movieNumber]} </figcaption>
+								<img class="movie-poster" src="${moviesPosters[movieNumber]}" alt="${moviesName[movieNumber]}" title="${moviesName[movieNumber]}" />
+							</figure>
+							<a class="btn-trailer" href="${trailers[movieNumber]}" title="Trailer do filme ${moviesName[movieNumber]}" target="_blank">Trailer do filme</a>
+						</div>`;
+                cardMovie.insertAdjacentHTML('beforeend', templateCardMovie);
             }
         } else {
             errorMessage.textContent = "Digite um número de 1 a 10";
