@@ -1,10 +1,10 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     background-image: url("../img/eevee-evolutions.png");
     background-position: center;
     line-height: 1.5;
@@ -12,42 +12,46 @@ body{
     padding-bottom: 100px;
     text-align: center;
     width: 100vw;
-    .main-title{
+    .main-title {
         margin-top: 20px;
+    }
+    .container {
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 30px;
     }
     .main-title,
     .about-pokemon,
     .subtitle,
-    .info-title{
-        background-color: rgba(242, 242, 242, .6);
+    .info-title {
+        background-color: rgba(242, 242, 242, 0.6);
         padding: 20px;
     }
 }
 
-.info-pokemon{
+.info-pokemon {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 30px;
-    .figure-pokemon{
+    .figure-pokemon {
         align-items: center;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        .about-pokemon{
+        .about-pokemon {
             font-weight: bold;
             max-width: 80ch;
         }
-        .img-pokemon{
-            background-color: rgba(242, 242, 242, .3);
+        .img-pokemon {
+            background-color: rgba(242, 242, 242, 0.3);
             border: 3px solid #001;
             border-radius: 30%;
             margin: 30px;
             max-width: 100%;
         }
     }
-    .type{
+    .type {
         border: 1px solid #001;
         border-radius: 10px;
         font-weight: bold;
@@ -55,31 +59,31 @@ body{
         padding: 10px;
         width: 33.69%;
     }
-    .type-normal{
+    .type-normal {
         background-color: #a4acaf;
     }
-    .type-water{
+    .type-water {
         background-color: #4592c4;
     }
-    .type-electric{
+    .type-electric {
         background-color: #eed535;
     }
-    .type-fire{
+    .type-fire {
         background-color: #fd7d24;
     }
-    .type-psychic{
+    .type-psychic {
         background-color: #f366b9;
     }
-    .type-dark{
+    .type-dark {
         background-color: #707070;
     }
-    .type-grass{
+    .type-grass {
         background-color: #9bcc50;
     }
-    .type-ice{
+    .type-ice {
         background-color: #51c4e7;
     }
-    .type-fairy{
+    .type-fairy {
         background-color: #fdb9e9;
     }
 }
