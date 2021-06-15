@@ -28,8 +28,9 @@ body{
         padding: 10px;
     }
     .canvas{
-        cursor: crosshair;
         border: 3px solid #001;
+        background-color: rgba(0, 0, 0, 0.6);
+        cursor: crosshair;
     }
     .hits-and-misses{
         display: flex;
