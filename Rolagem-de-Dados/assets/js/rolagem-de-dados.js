@@ -17,7 +17,10 @@ function roll() {
 cube.addEventListener('click', roll);
 
 window.onload = window.onresize = () => {
-    let dim = window.innerHeight < window.innerWidth ? window.innerHeight : window.innerWidth;
+    let dim =
+    window.innerHeight < window.innerWidth
+        ? window.innerHeight
+        : window.innerWidth;
     cubeSize = dim / 4;
     document.body.style.setProperty('--cube-size', cubeSize + 'px');
     document.body.style.setProperty('--cube-size-neg', -cubeSize + 'px');
