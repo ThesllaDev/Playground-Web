@@ -11,11 +11,11 @@ function drawClock() {
   drawTime(context, radius);
 }
 
-let colorGold = "#D4AF0C";
-let colorSilver = "#eee";
-let colorPurple = "#660099";
-let colorViolet = "#3A0057";
-let colorYellow = "#FFF200";
+const colorGold = "#D4AF0C";
+const colorSilver = "#eee";
+const colorPurple = "#660099";
+const colorViolet = "#3A0057";
+const colorYellow = "#FFF200";
 
 function drawFace(context, radius) {
   let gradient;
@@ -42,7 +42,7 @@ function drawNumbers(context, radius) {
   context.font = radius * 0.15 + "px arial";
   context.textBaseline = "middle";
   context.textAlign = "center";
-  for (numbers = 1; numbers < 13; numbers++) {
+  for (let numbers = 1; numbers < 13; numbers++) {
     angles = (numbers * Math.PI) / 6;
     context.rotate(angles);
     context.translate(0, -radius * 0.85);
@@ -55,10 +55,10 @@ function drawNumbers(context, radius) {
 }
 
 function drawTime(context, radius) {
-  var now = new Date();
-  var hour = now.getHours();
-  var minute = now.getMinutes();
-  var second = now.getSeconds();
+  let now = new Date();
+  let hour = now.getHours();
+  let minute = now.getMinutes();
+  let second = now.getSeconds();
   hour = hour % 12;
   hour =
     (hour * Math.PI) / 6 +
