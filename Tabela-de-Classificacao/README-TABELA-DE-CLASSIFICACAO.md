@@ -13,7 +13,7 @@
 
 <a href="https://codepen.io/theslladev/full/XWpjYxp" target="_blank">Veja o funcionando </a>
 
-[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Tabela-de-Classificacao)
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/main/Tabela-de-Classificacao)
 
 </div>
 

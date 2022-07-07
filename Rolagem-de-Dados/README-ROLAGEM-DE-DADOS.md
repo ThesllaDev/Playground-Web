@@ -13,7 +13,7 @@
 
 <a href="https://codepen.io/theslladev/full/NWbZabZ" target="_blank">Veja o funcionando </a>
 
-[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Rolagem-de-Dados)
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/main/Rolagem-de-Dados)
 
 </div>
 

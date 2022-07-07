@@ -13,7 +13,7 @@
 
 <a href="https://codepen.io/theslladev/full/qBRbEwY" target="_blank">Veja o funcionando </a>
 
-[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Jogo-de-Advinhacao)
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/main/Jogo-de-Advinhacao)
 
 </div>
 

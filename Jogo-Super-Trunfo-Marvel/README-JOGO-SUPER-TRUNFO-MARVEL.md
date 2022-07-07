@@ -13,7 +13,7 @@
 
 <a href="https://codepen.io/theslladev/full/ExZZQaB" target="_blank">Veja o funcionando </a>
 
-[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Jogo-Super-Trunfo-Marvel)
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/main/Jogo-Super-Trunfo-Marvel)
 
 </div>
 

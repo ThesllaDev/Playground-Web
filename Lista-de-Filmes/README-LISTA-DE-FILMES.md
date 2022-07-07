@@ -13,7 +13,7 @@
 
 <a href="https://codepen.io/theslladev/full/eYgZKXy" target="_blank">Veja o funcionando </a>
 
-[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Lista-de-Filmes)
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/main/Lista-de-Filmes)
 
 </div>
 

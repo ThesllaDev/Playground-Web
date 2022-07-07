@@ -13,7 +13,7 @@
 
 <a href="https://codepen.io/theslladev/full/MWJoMGd" target="_blank">Veja o funcionando </a>
 
-[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Certificard)
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/main/Certificard)
 
 </div>
 

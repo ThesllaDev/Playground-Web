@@ -13,7 +13,7 @@
 
 <a href="https://codepen.io/theslladev/full/XWpbrNo" target="_blank">Veja o funcionando </a>
 
-[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Conversor-da-Velocidade-da-Luz)
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/main/Conversor-da-Velocidade-da-Luz)
 
 </div>
 

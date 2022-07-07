@@ -13,7 +13,7 @@
 
 <a href="https://codepen.io/theslladev/full/yLVGBex" target="_blank">Veja o funcionando </a>
 
-[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Calculadora-de-IMC)
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/main/Calculadora-de-IMC)
 
 </div>
 

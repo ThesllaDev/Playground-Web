@@ -13,7 +13,7 @@
 
 <a href="https://codepen.io/theslladev/full/JjEYLNY" target="_blank">Veja o funcionando </a>
 
-[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Evolua-o-Pokemon)
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/main/Evolua-o-Pokemon)
 
 </div>
 

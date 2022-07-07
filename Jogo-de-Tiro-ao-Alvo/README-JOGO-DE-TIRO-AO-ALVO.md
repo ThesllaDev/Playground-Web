@@ -13,7 +13,7 @@
 
 <a href="https://codepen.io/theslladev/full/BapBvbw" target="_blank">Veja o funcionando </a>
 
-[Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Jogo-de-Tiro-ao-Alvo)
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/main/Jogo-de-Tiro-ao-Alvo)
 
 </div>
 
