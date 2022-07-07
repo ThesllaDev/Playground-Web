@@ -14,7 +14,7 @@
 #### 📚 Conteúdos e referências que usei para aprender  
 
 [W3schools](https://www.w3schools.com) -
-[MDN Web Docs](https://developer.mozilla.org/pt-BR) - [Livro Lógica de Programação](https://www.casadocodigo.com.br/products/livro-programacao) - [ImersãoDev](https://imersao.dev/)
+[MDN Web Docs](https://developer.mozilla.org/pt-BR) - [Livro Lógica de Programação](https://www.casadocodigo.com.br/products/livro-programacao) - [ImersãoDev](https://imersao.dev/) - [Microsoft - Web Dev for Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
 
 ---
 
@@ -31,6 +31,7 @@
 - [Relógio Canvas <a name="relogio-canvas"></a>](#relógio-canvas-)
 - [Rolagem de dados <a name="rolagem-de-dados"></a>](#rolagem-de-dados-)
 - [Tabela de Classificação da NBA <a name="tabela-de-classificação"></a>](#tabela-de-classificação-da-nba-)
+- [Terrarium <a name="terrarium"></a>](#terrarium-)
   - [👷 Autor](#-autor)
   - [📝 Licença](#-licença)
 
@@ -132,6 +133,16 @@
 **<a href="https://codepen.io/theslladev/full/XWpjYxp" target="_blank">Veja o funcionando </a> | 
 [Código](https://github.com/ThesllaDev/Simple-Projects/tree/master/Tabela-de-Classificacao) | 
 [Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/tree/master/Tabela-de-Classificacao/README-TABELA-DE-CLASSIFICACAO.md)**
+
+---
+
+
+## Terrarium <a name="terrarium"></a>
+<a href="https://github.com/ThesllaDev/Simple-Projects/tree/main/Terrarium/README-Terrarium.md" >![](./Terrarium/assets/img/banner-terrarium.gif)</a>
+
+**<a href="https://codepen.io/theslladev/full/yLMoZmd" target="_blank">Veja o funcionando </a> | 
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/main/Terrarium) | 
+[Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/tree/main/Terrarium/README-Terrarium.md)**
 
 ---
 
