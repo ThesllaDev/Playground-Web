@@ -138,11 +138,11 @@
 
 
 ## Terrarium <a name="terrarium"></a>
-<a href="https://github.com/ThesllaDev/Simple-Projects/tree/main/Terrarium/README-Terrarium.md" >![](./Terrarium/assets/img/banner-terrarium.gif)</a>
+<a href="https://github.com/ThesllaDev/Simple-Projects/blob/main/Terrarium/README-TERRARIUM.md" >![](./Terrarium/assets/img/banner-terrarium.gif)</a>
 
 **<a href="https://codepen.io/theslladev/full/yLMoZmd" target="_blank">Veja o funcionando </a> | 
 [Código](https://github.com/ThesllaDev/Simple-Projects/tree/main/Terrarium) | 
-[Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/tree/main/Terrarium/README-Terrarium.md)**
+[Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/blob/main/Terrarium/README-TERRARIUM.md)**
 
 ---
 
