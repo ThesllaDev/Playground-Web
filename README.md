@@ -1,7 +1,9 @@
 <h1 align="center"> Playground HTML | CSS | JavaScript </h1>
-<p align="center"> Repositório de pequenos e simples projetos para praticar, estudar e usar como referências.</p>
+<p align="center"> Repositório de vários projetos simples feitos para praticar, estudar e usar como referências.</p>
 
 <div align="center">
+
+<h3>Algumas das tecnologias utilizadas no processo</h3>
   
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) ![](https://img.shields.io/static/v1?label=licence&message=mit&color=green&style=for-the-badge) ![](https://img.shields.io/static/v1?label=Made%20with&message=HTML5&color=E34F26&style=for-the-badge&logo=html5) ![](https://img.shields.io/static/v1?label=Made%20with&message=CSS3&color=1572B6&style=for-the-badge&logo=css3) ![](https://img.shields.io/static/v1?label=Made%20with&message=JavaScript&color=F7DF1E&style=for-the-badge&logo=javascript) ![](https://img.shields.io/static/v1?label=Made%20with&message=Markdown&color=000&style=for-the-badge&logo=markdown) ![](https://img.shields.io/static/v1?label=made%20with&message=sass&color=CC6699&style=for-the-badge&logo=sass)
 
@@ -27,7 +29,7 @@
 
 ---
 
-#### 📚 Referências que usei para aprender  
+#### 📚 Conteúdos e referências que usei para aprender  
 
 [W3schools](https://www.w3schools.com) -
 [MDN Web Docs](https://developer.mozilla.org/pt-BR) - [Livro Lógica de Programação](https://www.casadocodigo.com.br/products/livro-programacao) - [ImersãoDev](https://imersao.dev/)
