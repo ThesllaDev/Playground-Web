@@ -32,6 +32,7 @@
 - [Rolagem de dados <a name="rolagem-de-dados"></a>](#rolagem-de-dados-)
 - [Tabela de Classificação da NBA <a name="tabela-de-classificação"></a>](#tabela-de-classificação-da-nba-)
 - [Terrarium <a name="terrarium"></a>](#terrarium-)
+- [Typing Game <a name="typing-game"></a>](#typing-game-)
   - [👷 Autor](#-autor)
   - [📝 Licença](#-licença)
 
@@ -136,13 +137,21 @@
 
 ---
 
-
 ## Terrarium <a name="terrarium"></a>
 <a href="https://github.com/ThesllaDev/Simple-Projects/blob/main/Terrarium/README-TERRARIUM.md" >![](./Terrarium/assets/img/banner-terrarium.gif)</a>
 
 **<a href="https://codepen.io/theslladev/full/yLMoZmd" target="_blank">Veja o funcionando </a> | 
 [Código](https://github.com/ThesllaDev/Simple-Projects/tree/main/Terrarium) | 
 [Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/blob/main/Terrarium/README-TERRARIUM.md)**
+
+---
+
+## Typing Game <a name="typing-game"></a>
+<a href="https://github.com/ThesllaDev/Simple-Projects/blob/main/Typing-Game/README-TYPING-GAME.md" >![](./Typing-Game/assets/img/banner-typing-game.gif)</a>
+
+**<a href="https://codepen.io/theslladev/full/oNZJMzj" target="_blank">Veja o funcionando </a> | 
+[Código](https://github.com/ThesllaDev/Simple-Projects/tree/main/Typing-Game) | 
+[Mais detalhes](https://github.com/ThesllaDev/Simple-Projects/blob/main/Typing-Game/README-TYPING-GAME.md)**
 
 ---
 
