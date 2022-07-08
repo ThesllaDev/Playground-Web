@@ -10,7 +10,7 @@
 <div align="center">
 
 
-![](./assets/img/banner-terrarium.gif)
+![](./assets/img/banner-typing-game.gif)
 
 <a href="https://codepen.io/theslladev/full/oNZJMzj" target="_blank">Veja o funcionando </a>
 
