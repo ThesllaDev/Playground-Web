@@ -36,6 +36,8 @@
   - [👷 Autor](#-autor)
   - [📝 Licença](#-licença)
 
+Veja também meu [CODEPEN](https://codepen.io/theslladev/pens/) com vários outros projetos
+
 ---
 
 ## Calculadora de IMC <a name="calculadora-de-imc"></a>
