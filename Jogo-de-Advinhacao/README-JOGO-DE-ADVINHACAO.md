@@ -9,7 +9,7 @@
 
 <div align="center">
 
-![](./assets/img/img/banner-evolua-o-pokemon.gif)
+![](./assets/img/banner-jogo-de-adivinhacao.gif)
 
 <a href="https://codepen.io/theslladev/full/qBRbEwY" target="_blank">Veja o funcionando </a>
 

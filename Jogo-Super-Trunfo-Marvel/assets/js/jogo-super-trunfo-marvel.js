@@ -239,7 +239,7 @@ function play() {
                 'beforeend',
                 `<p>Parabéns! Você venceu o oponente</p>`
             );
-        } else if (machinePoints < playerPoints) {
+        } else if (playerPoints < playerPoints) {
             options.insertAdjacentHTML(
                 'beforeend',
                 `<p>Você perdeu, o oponente fez mais pontos!</p>`
