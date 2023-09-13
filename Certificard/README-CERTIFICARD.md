@@ -1,5 +1,6 @@
 <h1 align="center"> Certificard - Certificado de participação da imersão dev da alura </h1>
-<p align="center">Feito para aprender e praticar sobre html e css</p>
+<p align="center">Projeto de conclusão da imersão dev alura, feito para praticar as tecnologias html, css, js, e também divulgar os projetos realizados durante o evento e o desenvolvedor
+</p>
 
 <div align="center">
   
@@ -24,6 +25,7 @@
 * [HTML5](https://www.w3schools.com/html/default.asp)
 * [CSS3](https://www.w3schools.com/css/default.asp)
 * [SASS](https://sass-lang.com/)
+* [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ---
 
@@ -43,4 +45,4 @@ Feito com ❤️ por Thalles Augusto 👋🏽 Entre em contato! <br/>
 
 ### 📝 Licença
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
+Este projeto está licenciado nos termos da licença [MIT](./LICENSE).

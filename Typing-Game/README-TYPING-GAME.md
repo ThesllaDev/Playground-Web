@@ -45,4 +45,4 @@ Feito com ❤️ por Thalles Augusto 👋🏽 Entre em contato! <br/>
 
 ### 📝 Licença
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
+Este projeto está licenciado nos termos da licença [MIT](./LICENSE).
